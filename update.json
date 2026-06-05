@@ -1,8 +1,8 @@
 {
-  "versionCode": 23,
-  "versionName": "0.9.3",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.9.3-debug.apk",
-  "changelog": "## Giải Trí Online v0.9.3\n\n### Player\n- **Fix nguồn C (stream headers)**: ExoPlayer giờ apply Referer + User-Agent + headers khác từ addon (qua proxyHeaders trong Stremio meta). Nguồn nào yêu cầu header (chống hotlink) trước đây bị 403 sẽ chạy được.\n- HLS dùng HlsMediaSource, link thường dùng ProgressiveMediaSource — quản lý chính xác content type.\n- Cho phép cross-protocol redirect (HTTPS → HTTP), fix vài kênh redirect.\n- **Sync overlay**: PlayerView controller (seekbar, play/pause) + Compose overlay (title, server chip, skip intro/outro) giờ hiện/ẩn cùng nhau, không còn rời rạc.\n- **Focus 'Chuyển tập' trên TV**: bump delay focus + retry → viền trắng hiện đúng, không phải D-pad qua nhiều nút.\n\n### Sidebar\n- Bỏ icon 'Tài khoản' (đã chuyển vào Settings).",
+  "versionCode": 24,
+  "versionName": "0.9.4",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.9.4-debug.apk",
+  "changelog": "## Giải Trí Online v0.9.4\n\n### Player\n- **Fix overlay vòng lặp ẩn-hiện**: tắt controllerAutoShow của Media3 (nguyên nhân v0.9.3 vừa ẩn lại tự hiện do buffering/playback event). Compose là single source of truth, PlayerView controller chỉ hiện khi Compose báo.\n- Touch trên surface PlayerView vẫn wake overlay (cho phone/emulator).\n\n### Tiếp tục xem\n- Chỉ hiện entry của **addon đang active**. Đổi sang addon TV/bóng đá → section tự ẩn (không còn lẫn phim từ addon khác).\n\n### Sidebar — Menu từ addon (architectural)\n- Sidebar không còn hardcode Phim Lẻ/Phim Bộ/Thể Loại/Quốc Gia.\n- App đọc field `menu` trong manifest addon đang active để render mục động.\n- Addon nào KHÔNG khai `menu` (vd TV, bóng đá) → sidebar gọn, chỉ Home/Search/Addon/Cấu hình.\n- Action types support: `catalog`, `picker`, `search`.\n- Doc cach_viet_addon.md cập nhật spec menu.\n\n### Lưu ý cho người viết addon\nĐể tận dụng sidebar menu, thêm field `menu` vào manifest.json theo spec mới. Xem `cach_viet_addon.md` mục 'Bổ sung v0.9.4'. Addon TV/bóng đá không cần khai menu — bỏ qua field này.",
   "mandatory": false,
   "minSupportedVersion": 1
 }
