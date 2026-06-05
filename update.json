@@ -1,8 +1,8 @@
 {
-  "versionCode": 25,
-  "versionName": "0.9.5",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.9.5-debug.apk",
-  "changelog": "## Giải Trí Online v0.9.5\n\n### OTA — Sửa toàn bộ vấn đề trên Android TV box\n- **Auto-focus 'Cập nhật ngay'**: dialog cập nhật mở ra → nút Cập nhật ngay tự được chọn (viền sáng). User chỉ cần bấm OK.\n- **Auto-focus 'Cài đặt'**: sau khi tải xong, nút Cài đặt tự được chọn.\n- **Auto-focus 'Đóng' cho dialog lỗi/info**: nút Đóng giờ là PRIMARY (đỏ) + tự focus → điều khiển bắt được luôn.\n- **Download timeout**: client riêng cho OTA download với timeout dài 10-15 phút (trước 20s — không đủ để tải APK 26MB qua WiFi yếu của TV box). Giải thích lý do LDPlayer tải nhanh: localhost / network nhanh nên không bao giờ vượt 20s, còn TV box qua WiFi chậm vượt → timeout.\n- **Retry on connection failure**: nếu kết nối đứt giữa chừng → tự retry.\n\n### Audit toàn app — Dialog auto-focus\n- DeleteHistoryDialog: nút 'Xoá' tự focus.\n- ErrorView (Thử lại): tự focus.\n- UpdateDialog 4 phase (Available/Ready/Error/Info): tự focus nút chính.\n\n### Nguyên tắc\nMọi dialog/overlay mở ra → nút hành động chính (primary đỏ) tự được focus. User trên TV chỉ cần bấm OK là xong, không phải D-pad lung tung.",
+  "versionCode": 26,
+  "versionName": "0.9.6",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.9.6-debug.apk",
+  "changelog": "## Giải Trí Online v0.9.6\n\n### Android TV box — fix layout\n- **safeDrawingPadding** ở Home: nội dung không còn bị overscan cắt mất phần trên.\n- **Addon selector chuyển sang Sidebar**: bỏ khỏi header Home. Sidebar collapse hiện chữ cái đầu của addon active trong vòng tròn; expand hiện danh sách đầy đủ. User trên TV bấm trái về sidebar là chọn addon được ngay.\n- Title trên Home thu nhỏ (titleMedium thay headlineSmall) — tiết kiệm chỗ.\n\n### Player\n- **Sort nguồn theo ưu tiên** trước khi expose:\n  - Ngôn ngữ: Thuyết Minh → Lồng Tiếng → Sub → Khác\n  - Trong cùng nhóm: Ophim → NguồnC → KKPhim → Khác\n  - Auto-failover khi link chết duyệt đúng thứ tự này — không còn nhảy từ TM thẳng xuống Sub.\n\n### UX\n- **Press feedback** trên mọi nút: nền tối nhẹ + scale 0.96 khi nhấn, dễ thấy vị trí click bằng chuột / cảm ứng.\n- **Badge 'FULL'** cho phim lẻ trong 'Tiếp tục xem' (thay vì lặp lại tên phim).\n\n### Defer sang v0.9.7\n- Restore focus về phim đã xem khi back từ Detail (cần state survival, đang nghiên cứu).",
   "mandatory": false,
   "minSupportedVersion": 1
 }
