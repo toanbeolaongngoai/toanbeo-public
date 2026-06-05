@@ -1,8 +1,8 @@
 {
-  "versionCode": 26,
-  "versionName": "0.9.6",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.9.6-debug.apk",
-  "changelog": "## Giải Trí Online v0.9.6\n\n### Android TV box — fix layout\n- **safeDrawingPadding** ở Home: nội dung không còn bị overscan cắt mất phần trên.\n- **Addon selector chuyển sang Sidebar**: bỏ khỏi header Home. Sidebar collapse hiện chữ cái đầu của addon active trong vòng tròn; expand hiện danh sách đầy đủ. User trên TV bấm trái về sidebar là chọn addon được ngay.\n- Title trên Home thu nhỏ (titleMedium thay headlineSmall) — tiết kiệm chỗ.\n\n### Player\n- **Sort nguồn theo ưu tiên** trước khi expose:\n  - Ngôn ngữ: Thuyết Minh → Lồng Tiếng → Sub → Khác\n  - Trong cùng nhóm: Ophim → NguồnC → KKPhim → Khác\n  - Auto-failover khi link chết duyệt đúng thứ tự này — không còn nhảy từ TM thẳng xuống Sub.\n\n### UX\n- **Press feedback** trên mọi nút: nền tối nhẹ + scale 0.96 khi nhấn, dễ thấy vị trí click bằng chuột / cảm ứng.\n- **Badge 'FULL'** cho phim lẻ trong 'Tiếp tục xem' (thay vì lặp lại tên phim).\n\n### Defer sang v0.9.7\n- Restore focus về phim đã xem khi back từ Detail (cần state survival, đang nghiên cứu).",
+  "versionCode": 27,
+  "versionName": "0.9.7",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.9.7-debug.apk",
+  "changelog": "## Giải Trí Online v0.9.7\n\n### Focus restoration on back\n- Khi back từ Detail về Home, focus tự về đúng card phim đã click. LazyRow tự scroll-into-view để card hiện ra. Không còn nhảy về đầu danh sách.\n- HomeViewModel ghi nhớ `lastFocusedMovieKey` khi user click — không cần SavedStateHandle vì ViewModel sống qua nav.\n- MovieCard + LandscapeCard nhận param `restoreFocus` — khi true sẽ requestFocus sau 150ms.\n\n### Material ripple effect\n- Khi nhấn (chuột / touch / D-pad Enter): vòng tròn sáng trắng lan ra trong khung card / nút.\n- Áp dụng cho MovieCard, LandscapeCard, ContinueCard, InteractiveBox.\n- Cảm giác giống CloudStream: rõ vị trí click + có phản hồi tức thì.",
   "mandatory": false,
   "minSupportedVersion": 1
 }
