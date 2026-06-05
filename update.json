@@ -1,8 +1,8 @@
 {
-  "versionCode": 27,
-  "versionName": "0.9.7",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.9.7-debug.apk",
-  "changelog": "## Giải Trí Online v0.9.7\n\n### Focus restoration on back\n- Khi back từ Detail về Home, focus tự về đúng card phim đã click. LazyRow tự scroll-into-view để card hiện ra. Không còn nhảy về đầu danh sách.\n- HomeViewModel ghi nhớ `lastFocusedMovieKey` khi user click — không cần SavedStateHandle vì ViewModel sống qua nav.\n- MovieCard + LandscapeCard nhận param `restoreFocus` — khi true sẽ requestFocus sau 150ms.\n\n### Material ripple effect\n- Khi nhấn (chuột / touch / D-pad Enter): vòng tròn sáng trắng lan ra trong khung card / nút.\n- Áp dụng cho MovieCard, LandscapeCard, ContinueCard, InteractiveBox.\n- Cảm giác giống CloudStream: rõ vị trí click + có phản hồi tức thì.",
+  "versionCode": 28,
+  "versionName": "0.9.8",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.9.8-debug.apk",
+  "changelog": "## Giải Trí Online v0.9.8\n\n### OTA — fix PROTOCOL_ERROR trên Android TV box\n- Vấn đề: TV box báo 'stream was reset: PROTOCOL_ERROR' khi tải APK. Nguyên nhân: stack mạng cũ của TV box không tương thích HTTP/2 stream của Cloudflare CDN (GitHub raw).\n- Fix: ép download client dùng **HTTP/1.1 only** (`protocols(listOf(Protocol.HTTP_1_1))`). Tương thích 100% với mọi server + CDN.\n- LDPlayer / phone hiện đại không bị (HTTP/2 stack OK), nhưng force HTTP/1.1 cũng không ảnh hưởng tốc độ với file 26MB.\n\n### Progress hiển thị 0% — fix\n- Trước: nếu response không có Content-Length (chunked) → onProgress không bao giờ được gọi → UI mãi 0% rồi báo lỗi.\n- Sau: progress emit mỗi 200ms. Có Content-Length → tính chính xác. Không có → ước lượng dựa trên byte đã tải / 30MB, max 0.95, đến khi xong → 1.0.\n\n### Tóm lại\nNếu bạn đã thử cài v0.9.7 trên TV box mà fail → cài thủ công v0.9.8 1 lần cuối từ GitHub. Từ v0.9.8 OTA sẽ chạy được trên cả TV box.",
   "mandatory": false,
   "minSupportedVersion": 1
 }
