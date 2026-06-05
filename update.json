@@ -1,8 +1,8 @@
 {
-  "versionCode": 29,
-  "versionName": "0.9.9",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.9.9-debug.apk",
-  "changelog": "## Giải Trí Online v0.9.9\n\n### Home / Banner\n- **Featured banner**: ảnh `ContentScale.Fit` thay vì `Crop` → không cắt đầu hay chân nhân vật nữa, ảnh hiện toàn bộ canh giữa. Phần trống 2 bên dùng backdrop mờ làm nền.\n- **Sidebar**: addon list hiện ngay cả khi chỉ có 1 addon (trước phải >1 mới hiện). Có thêm gì là thấy ngay.\n\n### Player TV box\n- **D-pad ← / →** tua trực tiếp 10 giây khi overlay đang ẩn (như Netflix/YouTube). Không cần phải focus vào seek bar trước.\n- **⏪ / ⏩** trên remote → tua 30 giây.\n- **Play/Pause button** → toggle.\n- **Skip Intro / Chuyển tập auto-focus**: retry 3 lần với delay 400/300/300ms để đảm bảo TV box chậm vẫn focus được (trước chỉ 2 lần, có khi thiếu).\n\n### Lưu ý cho user trên TV\nKhi xem phim, bấm ← / → là tua trực tiếp. Bấm OK / Center để hiện overlay + chọn nguồn / skip. Đợi 5s overlay tự ẩn.",
+  "versionCode": 30,
+  "versionName": "0.10.0",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.0-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.0\n\n### OTA\n- **Trở lại HTTP/2** cho download — LDPlayer / phone / TV mới tải nhanh gấp 3-5 lần HTTP/1.1.\n- TV box cũ (vd INUI X1Pro Gen2 Android 9) không tương thích HTTP/2 với Cloudflare → cài thủ công 1 lần là xong, không cập nhật được tiếp thì cài tay.\n\n### Home\n- **Featured banner random** mỗi lần load: chọn ngẫu nhiên 1 phim từ tất cả section (trừ live stream). Bớt nhàm chán khi mở app.",
   "mandatory": false,
   "minSupportedVersion": 1
 }
