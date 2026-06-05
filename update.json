@@ -1,8 +1,8 @@
 {
-  "versionCode": 32,
-  "versionName": "0.10.2",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.2-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.2\n\n### DetailScreen — gộp 'Xem ngay' + 'Xem tiếp'\n- Trước: nút 'Xem ngay' top-right + chip 'Xem tiếp Tập X' dưới poster → 2 nút trùng chức năng, nhìn rườm rà.\n- Sau: chỉ 1 nút duy nhất top-right, label đổi động:\n  + Phim chưa xem → 'Xem ngay'\n  + Phim lẻ đã xem dở → '▶ Xem tiếp'\n  + Phim bộ đã xem dở → '▶ Xem tiếp Tập 19' (tự lấy tên tập đang dở)\n- Bỏ chip dưới poster cho gọn.",
+  "versionCode": 33,
+  "versionName": "0.10.3",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.3-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.3\n\n### DetailScreen — Thể loại + Quốc gia thành chip clickable\n- Trước: text 'Thể loại: Chính Kịch, Tâm Lý' và 'Quốc gia: Trung Quốc' — chỉ là chữ.\n- Sau: render chip riêng cho từng giá trị, giống chip Đạo diễn / Diễn viên.\n- Click chip → mở AggregateGridScreen liệt kê toàn bộ phim cùng thể loại / quốc gia đó (giống menu Sidebar Thể loại → chọn).",
   "mandatory": false,
   "minSupportedVersion": 1
 }
