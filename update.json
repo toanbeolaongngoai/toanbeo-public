@@ -1,8 +1,8 @@
 {
-  "versionCode": 24,
-  "versionName": "0.9.4",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.9.4-debug.apk",
-  "changelog": "## Giải Trí Online v0.9.4\n\n### Player\n- **Fix overlay vòng lặp ẩn-hiện**: tắt controllerAutoShow của Media3 (nguyên nhân v0.9.3 vừa ẩn lại tự hiện do buffering/playback event). Compose là single source of truth, PlayerView controller chỉ hiện khi Compose báo.\n- Touch trên surface PlayerView vẫn wake overlay (cho phone/emulator).\n\n### Tiếp tục xem\n- Chỉ hiện entry của **addon đang active**. Đổi sang addon TV/bóng đá → section tự ẩn (không còn lẫn phim từ addon khác).\n\n### Sidebar — Menu từ addon (architectural)\n- Sidebar không còn hardcode Phim Lẻ/Phim Bộ/Thể Loại/Quốc Gia.\n- App đọc field `menu` trong manifest addon đang active để render mục động.\n- Addon nào KHÔNG khai `menu` (vd TV, bóng đá) → sidebar gọn, chỉ Home/Search/Addon/Cấu hình.\n- Action types support: `catalog`, `picker`, `search`.\n- Doc cach_viet_addon.md cập nhật spec menu.\n\n### Lưu ý cho người viết addon\nĐể tận dụng sidebar menu, thêm field `menu` vào manifest.json theo spec mới. Xem `cach_viet_addon.md` mục 'Bổ sung v0.9.4'. Addon TV/bóng đá không cần khai menu — bỏ qua field này.",
+  "versionCode": 25,
+  "versionName": "0.9.5",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.9.5-debug.apk",
+  "changelog": "## Giải Trí Online v0.9.5\n\n### OTA — Sửa toàn bộ vấn đề trên Android TV box\n- **Auto-focus 'Cập nhật ngay'**: dialog cập nhật mở ra → nút Cập nhật ngay tự được chọn (viền sáng). User chỉ cần bấm OK.\n- **Auto-focus 'Cài đặt'**: sau khi tải xong, nút Cài đặt tự được chọn.\n- **Auto-focus 'Đóng' cho dialog lỗi/info**: nút Đóng giờ là PRIMARY (đỏ) + tự focus → điều khiển bắt được luôn.\n- **Download timeout**: client riêng cho OTA download với timeout dài 10-15 phút (trước 20s — không đủ để tải APK 26MB qua WiFi yếu của TV box). Giải thích lý do LDPlayer tải nhanh: localhost / network nhanh nên không bao giờ vượt 20s, còn TV box qua WiFi chậm vượt → timeout.\n- **Retry on connection failure**: nếu kết nối đứt giữa chừng → tự retry.\n\n### Audit toàn app — Dialog auto-focus\n- DeleteHistoryDialog: nút 'Xoá' tự focus.\n- ErrorView (Thử lại): tự focus.\n- UpdateDialog 4 phase (Available/Ready/Error/Info): tự focus nút chính.\n\n### Nguyên tắc\nMọi dialog/overlay mở ra → nút hành động chính (primary đỏ) tự được focus. User trên TV chỉ cần bấm OK là xong, không phải D-pad lung tung.",
   "mandatory": false,
   "minSupportedVersion": 1
 }
