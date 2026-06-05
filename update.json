@@ -1,8 +1,8 @@
 {
-  "versionCode": 28,
-  "versionName": "0.9.8",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.9.8-debug.apk",
-  "changelog": "## Giải Trí Online v0.9.8\n\n### OTA — fix PROTOCOL_ERROR trên Android TV box\n- Vấn đề: TV box báo 'stream was reset: PROTOCOL_ERROR' khi tải APK. Nguyên nhân: stack mạng cũ của TV box không tương thích HTTP/2 stream của Cloudflare CDN (GitHub raw).\n- Fix: ép download client dùng **HTTP/1.1 only** (`protocols(listOf(Protocol.HTTP_1_1))`). Tương thích 100% với mọi server + CDN.\n- LDPlayer / phone hiện đại không bị (HTTP/2 stack OK), nhưng force HTTP/1.1 cũng không ảnh hưởng tốc độ với file 26MB.\n\n### Progress hiển thị 0% — fix\n- Trước: nếu response không có Content-Length (chunked) → onProgress không bao giờ được gọi → UI mãi 0% rồi báo lỗi.\n- Sau: progress emit mỗi 200ms. Có Content-Length → tính chính xác. Không có → ước lượng dựa trên byte đã tải / 30MB, max 0.95, đến khi xong → 1.0.\n\n### Tóm lại\nNếu bạn đã thử cài v0.9.7 trên TV box mà fail → cài thủ công v0.9.8 1 lần cuối từ GitHub. Từ v0.9.8 OTA sẽ chạy được trên cả TV box.",
+  "versionCode": 29,
+  "versionName": "0.9.9",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.9.9-debug.apk",
+  "changelog": "## Giải Trí Online v0.9.9\n\n### Home / Banner\n- **Featured banner**: ảnh `ContentScale.Fit` thay vì `Crop` → không cắt đầu hay chân nhân vật nữa, ảnh hiện toàn bộ canh giữa. Phần trống 2 bên dùng backdrop mờ làm nền.\n- **Sidebar**: addon list hiện ngay cả khi chỉ có 1 addon (trước phải >1 mới hiện). Có thêm gì là thấy ngay.\n\n### Player TV box\n- **D-pad ← / →** tua trực tiếp 10 giây khi overlay đang ẩn (như Netflix/YouTube). Không cần phải focus vào seek bar trước.\n- **⏪ / ⏩** trên remote → tua 30 giây.\n- **Play/Pause button** → toggle.\n- **Skip Intro / Chuyển tập auto-focus**: retry 3 lần với delay 400/300/300ms để đảm bảo TV box chậm vẫn focus được (trước chỉ 2 lần, có khi thiếu).\n\n### Lưu ý cho user trên TV\nKhi xem phim, bấm ← / → là tua trực tiếp. Bấm OK / Center để hiện overlay + chọn nguồn / skip. Đợi 5s overlay tự ẩn.",
   "mandatory": false,
   "minSupportedVersion": 1
 }
