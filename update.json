@@ -1,8 +1,8 @@
 {
-  "versionCode": 31,
-  "versionName": "0.10.1",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.1-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.1\n\n### Fix Player — bấm OK khi overlay đã ẩn\n- Tình huống: gần hết tập, 'Chuyển tập' hiện ra với viền trắng (focused). Đợi 5s overlay tự ẩn nhưng nút Chuyển tập vẫn còn. Bấm OK → player overlay lại hiện → mất focus, không nhấn được chuyển tập.\n- Fix: shortcut context-aware. Khi overlay ẨN + Skip Outro/Intro hiện → bấm OK trigger trực tiếp hành động (chuyển tập / bỏ qua giới thiệu), KHÔNG show controller, KHÔNG mất focus.\n- Khi overlay HIỆN (đang nhìn server chip, seek bar) → OK chạy logic cũ (focus traversal bình thường).",
+  "versionCode": 32,
+  "versionName": "0.10.2",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.2-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.2\n\n### DetailScreen — gộp 'Xem ngay' + 'Xem tiếp'\n- Trước: nút 'Xem ngay' top-right + chip 'Xem tiếp Tập X' dưới poster → 2 nút trùng chức năng, nhìn rườm rà.\n- Sau: chỉ 1 nút duy nhất top-right, label đổi động:\n  + Phim chưa xem → 'Xem ngay'\n  + Phim lẻ đã xem dở → '▶ Xem tiếp'\n  + Phim bộ đã xem dở → '▶ Xem tiếp Tập 19' (tự lấy tên tập đang dở)\n- Bỏ chip dưới poster cho gọn.",
   "mandatory": false,
   "minSupportedVersion": 1
 }
