@@ -1,8 +1,8 @@
 {
-  "versionCode": 30,
-  "versionName": "0.10.0",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.0-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.0\n\n### OTA\n- **Trở lại HTTP/2** cho download — LDPlayer / phone / TV mới tải nhanh gấp 3-5 lần HTTP/1.1.\n- TV box cũ (vd INUI X1Pro Gen2 Android 9) không tương thích HTTP/2 với Cloudflare → cài thủ công 1 lần là xong, không cập nhật được tiếp thì cài tay.\n\n### Home\n- **Featured banner random** mỗi lần load: chọn ngẫu nhiên 1 phim từ tất cả section (trừ live stream). Bớt nhàm chán khi mở app.",
+  "versionCode": 31,
+  "versionName": "0.10.1",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.1-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.1\n\n### Fix Player — bấm OK khi overlay đã ẩn\n- Tình huống: gần hết tập, 'Chuyển tập' hiện ra với viền trắng (focused). Đợi 5s overlay tự ẩn nhưng nút Chuyển tập vẫn còn. Bấm OK → player overlay lại hiện → mất focus, không nhấn được chuyển tập.\n- Fix: shortcut context-aware. Khi overlay ẨN + Skip Outro/Intro hiện → bấm OK trigger trực tiếp hành động (chuyển tập / bỏ qua giới thiệu), KHÔNG show controller, KHÔNG mất focus.\n- Khi overlay HIỆN (đang nhìn server chip, seek bar) → OK chạy logic cũ (focus traversal bình thường).",
   "mandatory": false,
   "minSupportedVersion": 1
 }
