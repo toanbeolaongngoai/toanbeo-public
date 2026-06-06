@@ -1,8 +1,8 @@
 {
-  "versionCode": 34,
-  "versionName": "0.10.4",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.4-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.4 — UI điện thoại\n\n### UpdateDialog\n- Dialog luôn fit màn hình: max 92% chiều cao, max 95% chiều rộng (520dp).\n- Changelog box co giãn (weight) — buttons 'Để sau' / 'Cập nhật ngay' luôn thấy ở dưới ngay cả khi changelog dài.\n\n### AddonScreen\n- Scroll toàn trang thay vì LazyColumn lồng — vuốt nhìn thấy hết danh sách addon.\n- Padding gọn lại cho điện thoại (24dp thay 48dp).\n\n### Sidebar — Addon dạng dropdown\n- Trước: list addon theo nhiều hàng — chiếm chỗ + không cuộn được.\n- Sau: 1 hàng duy nhất hiện addon active. Click để dropdown ra full list, chọn xong tự đóng.\n- Tiết kiệm chỗ + UX cleaner cho điện thoại.",
+  "versionCode": 35,
+  "versionName": "0.10.5",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.5-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.5 — Sửa URL addon + CF Worker proxy\n\n### Sửa URL addon (rất tiện cho remote TV)\n- Thêm nút **Sửa** trên mỗi addon — dialog hiện URL prefilled, chỉ chỉnh vài ký tự.\n- KHÔNG phải gỡ rồi add lại — giữ nguyên trạng thái 'Đang bật' + 'MẶC ĐỊNH'.\n- Đỡ phải gõ URL dài 50+ ký tự bằng remote TV.\n\n### Cloudflare Worker proxy cho video\n- Migrate video bytes sang `proxy.toanbeo.workers.dev`.\n- CF Workers free tier: bandwidth UNLIMITED, edge cache video segments.\n- Tách traffic video khỏi addon server → không lo limit nữa.\n\n### Migration sang Fly.dev\n- Server addon mới: `toanbeo.fly.dev` (Render đã bị limit bandwidth).\n- Singapore region — latency thấp cho VN users (~50ms).\n- Brotli/gzip compression bật toàn bộ JSON responses.\n\nLưu ý: dùng nút **Sửa** đổi domain từ `toanbeo.onrender.com` → `toanbeo.fly.dev` cho mỗi addon. 5 addon cần update: phimth / phimtm / bongda / tivi / kkphim.",
   "mandatory": false,
   "minSupportedVersion": 1
 }
