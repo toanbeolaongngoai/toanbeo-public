@@ -1,8 +1,8 @@
-{
-  "versionCode": 41,
-  "versionName": "0.10.11",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.11-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.11 — Nội dung cập nhật\n\n1. Bỏ nút Cài đặt trùng, dùng gear mặc định của player\n2. Thêm tuỳ chọn phụ đề vào gear menu của player",
-  "mandatory": false,
-  "minSupportedVersion": 1
+﻿{
+    "versionCode":  42,
+    "versionName":  "0.10.12",
+    "apkUrl":  "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.12-debug.apk",
+    "changelog":  "## Giải Trí Online v0.10.12 — Nội dung cập nhật\n\n1. Thêm nút Speed hiển thị nhanh trên player\n2. Thêm nút Audio để chọn audio track\n3. Thêm nút Video để xem/chọn chất lượng video track",
+    "mandatory":  false,
+    "minSupportedVersion":  1
 }
