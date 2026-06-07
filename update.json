@@ -1,8 +1,8 @@
 {
-  "versionCode": 37,
-  "versionName": "0.10.7",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.7-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.7 — Nội dung cập nhật\n\n1. Dialog Sửa URL addon — thêm nút Thêm\n2. Thêm Thông báo xác nhận thoát ứng dụng",
+  "versionCode": 38,
+  "versionName": "0.10.8",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.8-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.8 — Nội dung cập nhật\n\n1. Tự động bỏ qua quảng cáo KKPhim (15:02, 30 giây)",
   "mandatory": false,
   "minSupportedVersion": 1
 }
