@@ -1,8 +1,8 @@
 ﻿{
-    "versionCode":  42,
-    "versionName":  "0.10.12",
-    "apkUrl":  "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.12-debug.apk",
-    "changelog":  "## Giải Trí Online v0.10.12 — Nội dung cập nhật\n\n1. Thêm nút Speed hiển thị nhanh trên player\n2. Thêm nút Audio để chọn audio track\n3. Thêm nút Video để xem/chọn chất lượng video track",
+    "versionCode":  43,
+    "versionName":  "0.10.13",
+    "apkUrl":  "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.13-debug.apk",
+    "changelog":  "## Giải Trí Online v0.10.13 — Nội dung cập nhật\n\n1. Đưa nút Speed, Audio, Video vào thanh điều khiển gốc Media3 cạnh CC/gear\n2. Gỡ overlay điều khiển riêng gây che giao diện player\n3. Nút Video cho phép xem/chọn track chất lượng stream",
     "mandatory":  false,
     "minSupportedVersion":  1
 }
