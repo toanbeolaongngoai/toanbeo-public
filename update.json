@@ -1,8 +1,8 @@
 {
-  "versionCode": 35,
-  "versionName": "0.10.5",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.5-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.5 — Sửa URL addon + CF Worker proxy\n\n### Sửa URL addon (rất tiện cho remote TV)\n- Thêm nút **Sửa** trên mỗi addon — dialog hiện URL prefilled, chỉ chỉnh vài ký tự.\n- KHÔNG phải gỡ rồi add lại — giữ nguyên trạng thái 'Đang bật' + 'MẶC ĐỊNH'.\n- Đỡ phải gõ URL dài 50+ ký tự bằng remote TV.\n\n### Cloudflare Worker proxy cho video\n- Migrate video bytes sang `proxy.toanbeo.workers.dev`.\n- CF Workers free tier: bandwidth UNLIMITED, edge cache video segments.\n- Tách traffic video khỏi addon server → không lo limit nữa.\n\n### Migration sang Fly.dev\n- Server addon mới: `toanbeo.fly.dev` (Render đã bị limit bandwidth).\n- Singapore region — latency thấp cho VN users (~50ms).\n- Brotli/gzip compression bật toàn bộ JSON responses.\n\nLưu ý: dùng nút **Sửa** đổi domain từ `toanbeo.onrender.com` → `toanbeo.fly.dev` cho mỗi addon. 5 addon cần update: phimth / phimtm / bongda / tivi / kkphim.",
+  "versionCode": 36,
+  "versionName": "0.10.6",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.6-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.6 — Fix dialog Sửa URL focus\n\n### Fix focus dialog cho remote TV\n- Trước (v0.10.5): bấm Sửa → dialog hiện nhưng focus vẫn ở addon screen, remote không di chuyển vào dialog được → không sửa được URL.\n- Sau: dialog tự steal focus về text field URL ngay khi mở (delay 250ms).\n- Bấm Back trên remote → dialog tự đóng (không nhả về screen behind).\n\n### Cải tiến đồng thời\n- Quy tắc UI mới (claude.md): mọi dialog/overlay PHẢI tự focus về element đầu tiên + bắt nút Back.\n\n### Nhắc lại từ v0.10.5\n- Nút Sửa URL trên mỗi addon (không phải gỡ rồi gõ lại bằng remote).\n- Migration sang Fly.dev + CF Worker proxy cho video.\n- Cần đổi domain addon từ toanbeo.onrender.com → toanbeo.fly.dev (5 addon).",
   "mandatory": false,
   "minSupportedVersion": 1
 }
