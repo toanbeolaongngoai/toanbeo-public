@@ -1,8 +1,8 @@
 {
-  "versionCode": 36,
-  "versionName": "0.10.6",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.6-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.6 — Fix dialog Sửa URL focus\n\n### Fix focus dialog cho remote TV\n- Trước (v0.10.5): bấm Sửa → dialog hiện nhưng focus vẫn ở addon screen, remote không di chuyển vào dialog được → không sửa được URL.\n- Sau: dialog tự steal focus về text field URL ngay khi mở (delay 250ms).\n- Bấm Back trên remote → dialog tự đóng (không nhả về screen behind).\n\n### Cải tiến đồng thời\n- Quy tắc UI mới (claude.md): mọi dialog/overlay PHẢI tự focus về element đầu tiên + bắt nút Back.\n\n### Nhắc lại từ v0.10.5\n- Nút Sửa URL trên mỗi addon (không phải gỡ rồi gõ lại bằng remote).\n- Migration sang Fly.dev + CF Worker proxy cho video.\n- Cần đổi domain addon từ toanbeo.onrender.com → toanbeo.fly.dev (5 addon).",
+  "versionCode": 37,
+  "versionName": "0.10.7",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.7-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.7 — Nút Thêm/Sửa + Xác nhận thoát\n\n### Dialog Sửa URL addon — thêm nút Thêm\n- Dialog Sửa giờ có 3 nút: Hủy / Thêm / Sửa.\n- **Sửa**: lưu đè URL addon đang chỉnh (giữ Đang bật + Mặc định).\n- **Thêm**: tạo addon MỚI từ URL (không đè cái cũ).\n- Tiện copy nhanh: từ 1 addon đã có, sửa vài ký tự rồi Thêm → 1 addon tương tự xuất hiện.\n\n### Xác nhận thoát ứng dụng\n- Bấm Back ở Trang chủ → hiện dialog 'Bạn có thực sự muốn thoát?'.\n- 2 nút: **Không** (auto-focus mặc định) + **Thoát**.\n- Checkbox 'Không hiển thị lại thông báo này' — tick + Thoát → lần sau bỏ qua dialog.\n- Tránh trường hợp vuốt nhầm trên điện thoại bị thoát app.\n- Nếu lỡ tick 'không hỏi lại' → vẫn có thể bật lại bằng cách reinstall app.",
   "mandatory": false,
   "minSupportedVersion": 1
 }
