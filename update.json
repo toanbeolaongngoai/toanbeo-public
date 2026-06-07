@@ -1,8 +1,8 @@
 {
-  "versionCode": 39,
-  "versionName": "0.10.9",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.9-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.9 — Nội dung cập nhật\n\n1. Sửa lỗi tìm kiếm theo tên phim báo 'StandaloneCoroutine was cancelled'\n2. Tăng tốc tìm kiếm theo diễn viên / đạo diễn (truy xuất DB thay vì scan)\n3. Thêm nút Cài đặt phát trong player (tốc độ, info video, audio, phụ đề)",
+  "versionCode": 40,
+  "versionName": "0.10.10",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.10-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.10 — Nội dung cập nhật\n\n1. Sửa dialog Cài đặt phát không hiện (z-order)\n2. Dedup kết quả tìm kiếm diễn viên (bỏ phim trùng)",
   "mandatory": false,
   "minSupportedVersion": 1
 }
