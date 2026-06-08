@@ -1,8 +1,8 @@
 ﻿{
-    "versionCode":  44,
-    "versionName":  "0.10.14",
-    "apkUrl":  "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.14-debug.apk",
-    "changelog":  "## Giải Trí Online v0.10.14 — Nội dung cập nhật\n\n1. Chuyển Speed/Audio/Video thành icon-only trên thanh Media3\n2. Đặt nút cạnh CC/gear thay vì overlay riêng\n3. Loosen X20 matching theo slug để bắt thêm nhiều phim hơn",
+    "versionCode":  46,
+    "versionName":  "0.10.16",
+    "apkUrl":  "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.16-debug.apk",
+    "changelog":  "## Giải Trí Online v0.10.16 — Nội dung cập nhật\n\n1. Thêm nút Zoom trong player Media3\n2. Hỗ trợ đổi chế độ hiển thị: Fit, Zoom, Fill, Fixed Width, Fixed Height\n3. Tối ưu load detail bằng cách ưu tiên 3 nguồn chính trước, secondary nguồn chạy sau\n4. Sửa nhãn nguồn bị rỗng trong player",
     "mandatory":  false,
     "minSupportedVersion":  1
 }
