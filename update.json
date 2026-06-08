@@ -1,8 +1,8 @@
 ﻿{
-    "versionCode":  46,
-    "versionName":  "0.10.16",
-    "apkUrl":  "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.16-debug.apk",
-    "changelog":  "## Giải Trí Online v0.10.16 — Nội dung cập nhật\n\n1. Thêm nút Zoom trong player Media3\n2. Hỗ trợ đổi chế độ hiển thị: Fit, Zoom, Fill, Fixed Width, Fixed Height\n3. Tối ưu load detail bằng cách ưu tiên 3 nguồn chính trước, secondary nguồn chạy sau\n4. Sửa nhãn nguồn bị rỗng trong player",
+    "versionCode":  47,
+    "versionName":  "0.10.17",
+    "apkUrl":  "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.17-debug.apk",
+    "changelog":  "## Giải Trí Online v0.10.17 — Nội dung cập nhật\n\n1. Sửa tiêu đề bị lặp khi phim có tên và tên tập trùng nhau\n2. Sửa chip nguồn 4K bị rỗng do bị coi nhầm là tag chất lượng\n3. Giữ nguyên nút Zoom / Speed / Audio / Video trong player Media3",
     "mandatory":  false,
     "minSupportedVersion":  1
 }
