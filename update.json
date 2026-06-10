@@ -1,8 +1,8 @@
-﻿{
-    "versionCode":  48,
-    "versionName":  "0.10.18",
-    "apkUrl":  "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.18-debug.apk",
-    "changelog":  "## Giải Trí Online v0.10.18 — Nội dung cập nhật\n\n1. Sửa player nhận diện đúng các link HLS không có đuôi .m3u8, gồm cả nguồn 4K\n2. Bổ sung khai báo mime type cho .mkv và .webm để phát trực tiếp ổn định hơn\n3. Chuyển KK, OP, X20 và 4K sang chạy trực tiếp; chỉ giữ proxy cho các nguồn thật sự cần như Nguồn C",
-    "mandatory":  false,
-    "minSupportedVersion":  1
+{
+  "versionCode": 49,
+  "versionName": "0.10.19",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.19-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.19 — Nội dung cập nhật\n\n1. Tự động lọc quảng cáo KKPhim ngay tại proxy (phát hiện qua URL segment)\n2. Gỡ logic skip ad theo thời gian 15:02 (không chính xác cho phim ngắn)",
+  "mandatory": false,
+  "minSupportedVersion": 1
 }
