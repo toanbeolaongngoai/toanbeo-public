@@ -1,8 +1,8 @@
 {
-  "versionCode": 51,
-  "versionName": "0.10.21",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.21-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.21 — DB chuẩn hoá + Player UI\n\n1. DB Supabase tối ưu: chuẩn hoá title_norm, dọn prefix [OKC] khỏi DB, API tự compute badge từ sources_json — sạch hơn, sẵn sàng thêm Xem20\n2. Player: luôn hiện chip tên nguồn (kể cả khi chỉ có 1 nguồn) để tiện kiểm tra\n3. Crawler không add prefix [XX] vào DB nữa — chống tự lệch khi cron cập nhật",
+  "versionCode": 52,
+  "versionName": "0.10.22",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.22-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.22 — KK ad-strip toàn diện\n\n1. KK CDN mới (kkphimplayer7): qua CF proxy, ad-strip server-side\n2. KK CDN cũ (phim1280, kkphimplayer6) bị CF block: app TV tự strip ads client-side qua custom HlsPlaylistParser\n3. KK luôn xuất hiện trong source list (dù server không reach được upstream)\n4. Worker tự HEAD test mỗi request KK để chọn proxy vs direct",
   "mandatory": false,
   "minSupportedVersion": 1
 }
