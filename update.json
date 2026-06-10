@@ -1,8 +1,8 @@
 {
-  "versionCode": 49,
-  "versionName": "0.10.19",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.19-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.19 — Nội dung cập nhật\n\n1. Tự động lọc quảng cáo KKPhim ngay tại proxy (phát hiện qua URL segment)\n2. Gỡ logic skip ad theo thời gian 15:02 (không chính xác cho phim ngắn)",
+  "versionCode": 51,
+  "versionName": "0.10.21",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.21-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.21 — DB chuẩn hoá + Player UI\n\n1. DB Supabase tối ưu: chuẩn hoá title_norm, dọn prefix [OKC] khỏi DB, API tự compute badge từ sources_json — sạch hơn, sẵn sàng thêm Xem20\n2. Player: luôn hiện chip tên nguồn (kể cả khi chỉ có 1 nguồn) để tiện kiểm tra\n3. Crawler không add prefix [XX] vào DB nữa — chống tự lệch khi cron cập nhật",
   "mandatory": false,
   "minSupportedVersion": 1
 }
