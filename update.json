@@ -1,8 +1,8 @@
 {
-  "versionCode": 53,
-  "versionName": "0.10.23",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.23-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.23 — Strip thêm ad pattern /adjump/\n\n1. Phát hiện KK chèn thêm pattern ad mới: /adjump/{date}/{HASH}/NNNNNN.ts (vd phim Địa Đạo: Mặt Trời Trong Bóng Tối phút 15:14 — 11 segments ad liên tiếp).\n2. Update cả CF proxy + app client để detect và strip pattern này.\n3. Tổng cộng 3 pattern ad đang chặn: convertv8/, /v8/HASH/segment_NNNN.ts, /adjump/.",
+  "versionCode": 54,
+  "versionName": "0.10.24",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.24-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.24 — Generalize pattern ad detect\n\n1. Phim \"Cục Vàng Của Ngoại\" lộ pattern ad version cũ hơn: convertv7/ và /v7/HASH/segment_NNNN.ts.\n2. Generalize regex từ /v8/ thành /v\\d+/ và convertv8/ thành convertv\\d+/ → cover mọi version CDN của KK (v7, v8, v9...).\n3. Update cả CF proxy + app client.",
   "mandatory": false,
   "minSupportedVersion": 1
 }
