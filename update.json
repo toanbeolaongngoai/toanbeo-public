@@ -1,8 +1,8 @@
 {
-  "versionCode": 55,
-  "versionName": "0.10.25",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.25-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.25 — Player UX + Xem20 source\n\n1. Bỏ prefix [OKCX] khỏi tên phim — badge nguồn đã hiện ở thumb\n2. Thêm nguồn Xem20 (X) — ~12K phim mới crawl vào DB\n3. Player phim bộ: nút ⏮ Tập trước / ≡ Chọn tập / Tập sau ⏭ ngay trong player, không phải thoát\n4. Player hiện 'Tên phim - Tập N' + badge resolution thực tế (1080p/720p) dưới tên\n5. Tiếp tục xem: thêm card 'Xoá lịch sử' cuối list (xoá toàn bộ với 1 dialog)\n6. Back từ Player (vào từ Tiếp tục xem) → về Detail thay vì Home — dễ chọn tập kế",
+  "versionCode": 56,
+  "versionName": "0.10.26",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.26-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.26 — Thông số stream chi tiết\n\n1. Player hiện đầy đủ dưới tên phim: tên nguồn + độ phân giải thực (1920×1080) + codec video (H.264/H.265) + codec audio (AAC Stereo) — giống CloudStream\n2. Đọc trực tiếp từ ExoPlayer track info, cập nhật khi đổi nguồn/tập",
   "mandatory": false,
   "minSupportedVersion": 1
 }
