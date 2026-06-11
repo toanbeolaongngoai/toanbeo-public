@@ -1,8 +1,8 @@
 {
-  "versionCode": 54,
-  "versionName": "0.10.24",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.24-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.24 — Generalize pattern ad detect\n\n1. Phim \"Cục Vàng Của Ngoại\" lộ pattern ad version cũ hơn: convertv7/ và /v7/HASH/segment_NNNN.ts.\n2. Generalize regex từ /v8/ thành /v\\d+/ và convertv8/ thành convertv\\d+/ → cover mọi version CDN của KK (v7, v8, v9...).\n3. Update cả CF proxy + app client.",
+  "versionCode": 55,
+  "versionName": "0.10.25",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.25-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.25 — Player UX + Xem20 source\n\n1. Bỏ prefix [OKCX] khỏi tên phim — badge nguồn đã hiện ở thumb\n2. Thêm nguồn Xem20 (X) — ~12K phim mới crawl vào DB\n3. Player phim bộ: nút ⏮ Tập trước / ≡ Chọn tập / Tập sau ⏭ ngay trong player, không phải thoát\n4. Player hiện 'Tên phim - Tập N' + badge resolution thực tế (1080p/720p) dưới tên\n5. Tiếp tục xem: thêm card 'Xoá lịch sử' cuối list (xoá toàn bộ với 1 dialog)\n6. Back từ Player (vào từ Tiếp tục xem) → về Detail thay vì Home — dễ chọn tập kế",
   "mandatory": false,
   "minSupportedVersion": 1
 }
