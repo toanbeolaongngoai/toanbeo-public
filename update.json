@@ -1,8 +1,8 @@
 {
-  "versionCode": 61,
-  "versionName": "0.10.31",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.31-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.31 — Fix panel sizing\n\n1. Panel controls đã full width đúng nghĩa — 11 nút hiển thị đủ trải từ trái sang phải\n2. Nguyên nhân v0.10.30: AnimatedVisibility wrap content nhỏ + align center → đẩy panel về giữa screen",
+  "versionCode": 62,
+  "versionName": "0.10.32",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.32-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.32 — Rewrite controls bar đơn giản nhất\n\n1. Bỏ InteractiveBox + conditional modifier — dùng Box + clickable thuần\n2. Layout SpaceBetween 2 nhóm — chắc chắn left/right edge\n3. Text tiếng Việt rõ ràng: Tạm dừng / Phát / Tốc độ / Audio / Video / Sub / Tỉ lệ",
   "mandatory": false,
   "minSupportedVersion": 1
 }
