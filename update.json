@@ -1,8 +1,8 @@
 {
-  "versionCode": 56,
-  "versionName": "0.10.26",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.26-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.26 — Thông số stream chi tiết\n\n1. Player hiện đầy đủ dưới tên phim: tên nguồn + độ phân giải thực (1920×1080) + codec video (H.264/H.265) + codec audio (AAC Stereo) — giống CloudStream\n2. Đọc trực tiếp từ ExoPlayer track info, cập nhật khi đổi nguồn/tập",
+  "versionCode": 57,
+  "versionName": "0.10.27",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.27-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.27 — Player thống nhất + tua nhanh\n\n1. Player viết lại 100% Compose — focus remote mượt, không còn 2 hệ điều khiển\n2. Hàng nút: -30s / Phát / +30s / Tập trước / Chọn tập / Tập sau / Tốc độ / Âm thanh / Video / Phụ đề / Tỉ lệ\n3. Giữ ← / → trên remote để tua nhanh hơn (30s → 60s → 2 phút → 4 phút)\n4. Detail: 'han quoc' → 'Hàn Quốc' + thống nhất 'Tập N' (không còn 'Tap N')\n5. Lưới chọn tập gọn hơn — 10 cột, tone-down màu đỏ rực",
   "mandatory": false,
   "minSupportedVersion": 1
 }
