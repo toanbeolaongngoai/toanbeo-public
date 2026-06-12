@@ -1,8 +1,8 @@
 {
-  "versionCode": 60,
-  "versionName": "0.10.30",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.30-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.30 — Player buttons hiển thị đủ\n\n1. Bỏ Material icons (một số icon không render trên TV) — dùng text + unicode\n2. Nền nút sáng hơn, viền rõ — luôn nhìn thấy trên mọi background\n3. Panel solid bg thay gradient — contrast tốt hơn\n4. Layout Row+Spacer đơn giản, predictable",
+  "versionCode": 61,
+  "versionName": "0.10.31",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.31-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.31 — Fix panel sizing\n\n1. Panel controls đã full width đúng nghĩa — 11 nút hiển thị đủ trải từ trái sang phải\n2. Nguyên nhân v0.10.30: AnimatedVisibility wrap content nhỏ + align center → đẩy panel về giữa screen",
   "mandatory": false,
   "minSupportedVersion": 1
 }
