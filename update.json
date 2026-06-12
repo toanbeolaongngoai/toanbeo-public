@@ -1,8 +1,8 @@
 {
-  "versionCode": 59,
-  "versionName": "0.10.29",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.29-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.29 — Settings luôn căn lề phải\n\n1. Nhóm 5 nút (tốc độ/âm thanh/video/phụ đề/tỉ lệ) LUÔN cố định bên phải\n2. Phim lẻ và phim bộ giao diện thống nhất\n3. Không còn tình trạng tràn ẩn mất khi phim bộ nhiều tập",
+  "versionCode": 60,
+  "versionName": "0.10.30",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.30-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.30 — Player buttons hiển thị đủ\n\n1. Bỏ Material icons (một số icon không render trên TV) — dùng text + unicode\n2. Nền nút sáng hơn, viền rõ — luôn nhìn thấy trên mọi background\n3. Panel solid bg thay gradient — contrast tốt hơn\n4. Layout Row+Spacer đơn giản, predictable",
   "mandatory": false,
   "minSupportedVersion": 1
 }
