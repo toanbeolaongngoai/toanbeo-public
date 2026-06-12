@@ -1,8 +1,8 @@
 {
-  "versionCode": 67,
-  "versionName": "0.10.37",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.37-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.37 — Fix chuyển nguồn bằng remote\n\n1. Khi focus ở chips nguồn (góc phải trên) → ←/→ chuyển nguồn đúng\n2. Trước player ăn ←/→ thành lệnh tua",
+  "versionCode": 68,
+  "versionName": "0.10.38",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.38-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.38 — Click bỏ qua giới thiệu chuyển focus về panel\n\n1. Sau khi nhấn Bỏ qua giới thiệu / Chuyển tập → focus tự nhảy vào nút Phát\n2. Có thể di chuyển ngang/dọc ngay — không phải đợi panel ẩn rồi mở lại",
   "mandatory": false,
   "minSupportedVersion": 1
 }
