@@ -1,8 +1,8 @@
 {
-  "versionCode": 64,
-  "versionName": "0.10.34",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.34-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.34 — Click timeline để tua\n\n1. Click chuột / chạm vào thanh tua → nhảy tới vị trí đó\n2. Tap target rộng hơn (22dp) — dễ click hơn",
+  "versionCode": 65,
+  "versionName": "0.10.35",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.35-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.35 — Focus + tua liên tục\n\n1. Nhấn OK → panel hiện + focus tự nhảy vào nút Phát\n2. Mũi tên ← / → tua liên tục — không bị kẹt sau lần 1\n3. Hold ←/→ tua nhanh dần: 30s → 60s → 2 phút",
   "mandatory": false,
   "minSupportedVersion": 1
 }
