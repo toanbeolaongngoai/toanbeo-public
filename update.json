@@ -1,8 +1,8 @@
 {
-  "versionCode": 63,
-  "versionName": "0.10.33",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.33-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.33 — Player gọn đẹp theo demo\n\n1. Buttons compact: « 30 / ⏸ / 30 » / ⏮ / ≡ Tập / ⏭ / ⚡ 1× / PĐ / 900p / Sub / ⛶ Fit\n2. Thanh progress có thumb tròn đỏ\n3. Panel bo góc trên, gradient mềm",
+  "versionCode": 64,
+  "versionName": "0.10.34",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.34-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.34 — Click timeline để tua\n\n1. Click chuột / chạm vào thanh tua → nhảy tới vị trí đó\n2. Tap target rộng hơn (22dp) — dễ click hơn",
   "mandatory": false,
   "minSupportedVersion": 1
 }
