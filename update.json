@@ -1,8 +1,8 @@
 {
-  "versionCode": 58,
-  "versionName": "0.10.28",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.28-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.28 — Fix player controls + drawer\n\n1. Hiện đủ nút: tốc độ, âm thanh, video, phụ đề, tỉ lệ + tập trước/sau\n2. Nút compact icon-only, không tràn khỏi màn hình\n3. Drawer Chọn tập gọn lại — tone-down màu đỏ rực\n4. Mở drawer tự cuộn + focus vào tập đang xem — bấm OK chọn ngay",
+  "versionCode": 59,
+  "versionName": "0.10.29",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.29-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.29 — Settings luôn căn lề phải\n\n1. Nhóm 5 nút (tốc độ/âm thanh/video/phụ đề/tỉ lệ) LUÔN cố định bên phải\n2. Phim lẻ và phim bộ giao diện thống nhất\n3. Không còn tình trạng tràn ẩn mất khi phim bộ nhiều tập",
   "mandatory": false,
   "minSupportedVersion": 1
 }
