@@ -1,8 +1,8 @@
 {
-  "versionCode": 65,
-  "versionName": "0.10.35",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.35-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.35 — Focus + tua liên tục\n\n1. Nhấn OK → panel hiện + focus tự nhảy vào nút Phát\n2. Mũi tên ← / → tua liên tục — không bị kẹt sau lần 1\n3. Hold ←/→ tua nhanh dần: 30s → 60s → 2 phút",
+  "versionCode": 66,
+  "versionName": "0.10.36",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.36-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.36 — Fix nút Bỏ qua giới thiệu / Chuyển tập\n\n1. Nhấn OK vào 2 nút Bỏ qua giới thiệu / Chuyển tập đã ăn lệnh đúng\n2. Trước đó focus đúng nhưng OK bị root handler ăn mất",
   "mandatory": false,
   "minSupportedVersion": 1
 }
