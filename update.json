@@ -1,8 +1,8 @@
 {
-  "versionCode": 69,
-  "versionName": "0.10.39",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.39-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.39 — Xem tất cả + fix lọc phim Âu Mỹ\n\n1. Mỗi danh mục có card 'Xem tất cả' ở cuối → mở danh sách đầy đủ\n2. Bỏ click vào tiêu đề danh mục — bớt thao tác di chuyển focus\n3. Phim bộ Âu Mỹ không còn lẫn phim hoạt hình (fix server)",
+  "versionCode": 70,
+  "versionName": "0.10.40",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.40-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.40 — Sửa card 'Xem tất cả'\n\n1. Mỗi row giờ giới hạn 36 phim, cuối là card 'Xem tất cả'\n2. Bỏ auto-load thêm khi cuộn — trước kéo càng nhiều phim càng load, không bao giờ tới Xem tất cả",
   "mandatory": false,
   "minSupportedVersion": 1
 }
