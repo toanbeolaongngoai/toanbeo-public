@@ -1,9 +1,8 @@
 {
-  "versionCode": 71,
-  "versionName": "0.10.41",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.41-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.41 — Sidebar đẹp hơn + tap mở trên phone\n\n1. Icon tròn 2 ký tự: TH (Phim Thuyết Minh), TM (Phim Tổng Hợp), BD (Bóng Đá), TV (Xem Tivi)\n2. Tên đầy đủ: 'Phim Thuyết Minh', 'Phim Tổng Hợp', 'Bóng Đá', 'Xem Tivi'\n3. Phone touch: chạm vào tiêu đề 'G' / 'Giải Trí' để mở/đóng menu"
-,
+  "versionCode": 72,
+  "versionName": "0.10.42",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.42-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.42 — Thu hẹp menu trái\n\n1. Menu mở rộng 168dp (vừa đủ 'Phim Thuyết Minh' — text dài nhất)\n2. Trước 200dp hơi thừa",
   "mandatory": false,
   "minSupportedVersion": 1
 }
