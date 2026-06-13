@@ -1,8 +1,8 @@
 {
-  "versionCode": 75,
-  "versionName": "0.10.45",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.45-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.45 — Fix nhãn addon + click phim NguonC\n\n1. Đổi tên addon đúng: PhimTH = Tổng Hợp, PhimTM = Thuyết Minh (trước bị đảo)\n2. Phim chỉ NguonC giờ click xem được — proxy qua CF Worker (NC block fly IP)"
+  "versionCode": 76,
+  "versionName": "0.10.46",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.46-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.46 — Fix chọn tập bằng remote\n\n1. Drawer Danh sách tập: nhấn OK trên remote chọn tập đã ăn lệnh\n2. Trước chỉ click chuột mới được, D-pad OK bị InteractiveBox ăn key event\n3. Backfill lang aggregate (132 phim cập nhật TM từ source mới)"
 ,
   "mandatory": false,
   "minSupportedVersion": 1
