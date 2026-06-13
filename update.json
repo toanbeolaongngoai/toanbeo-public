@@ -1,8 +1,8 @@
 {
-  "versionCode": 74,
-  "versionName": "0.10.44",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.44-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.44 — Player: timeline focus + nút seek không mất focus\n\n1. Timeline focusable: di chuyển focus tới thanh tua, ←/→ scrub 10s\n2. Khi timeline focused, track dày + thumb to + viền trắng\n3. Nút « 30s / 30 » giữ focus sau khi nhấn — không phải di chuyển lại"
+  "versionCode": 75,
+  "versionName": "0.10.45",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.45-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.45 — Fix nhãn addon + click phim NguonC\n\n1. Đổi tên addon đúng: PhimTH = Tổng Hợp, PhimTM = Thuyết Minh (trước bị đảo)\n2. Phim chỉ NguonC giờ click xem được — proxy qua CF Worker (NC block fly IP)"
 ,
   "mandatory": false,
   "minSupportedVersion": 1
