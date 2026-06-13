@@ -1,8 +1,8 @@
 {
-  "versionCode": 73,
-  "versionName": "0.10.43",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.43-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.43 — Fix rung rung khi di chuyển trên Android TV\n\n1. Migrate TvLazyRow → LazyRow + focusGroup() để cô lập focus traversal\n2. Giảm scale card focused 1.05x → 1.02x (TV match LDPlayer)\n3. Các danh mục trên/dưới giờ đứng yên khi di chuyển ngang"
+  "versionCode": 74,
+  "versionName": "0.10.44",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.44-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.44 — Player: timeline focus + nút seek không mất focus\n\n1. Timeline focusable: di chuyển focus tới thanh tua, ←/→ scrub 10s\n2. Khi timeline focused, track dày + thumb to + viền trắng\n3. Nút « 30s / 30 » giữ focus sau khi nhấn — không phải di chuyển lại"
 ,
   "mandatory": false,
   "minSupportedVersion": 1
