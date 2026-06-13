@@ -1,8 +1,8 @@
 {
-  "versionCode": 68,
-  "versionName": "0.10.38",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.38-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.38 — Click bỏ qua giới thiệu chuyển focus về panel\n\n1. Sau khi nhấn Bỏ qua giới thiệu / Chuyển tập → focus tự nhảy vào nút Phát\n2. Có thể di chuyển ngang/dọc ngay — không phải đợi panel ẩn rồi mở lại",
+  "versionCode": 69,
+  "versionName": "0.10.39",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.39-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.39 — Xem tất cả + fix lọc phim Âu Mỹ\n\n1. Mỗi danh mục có card 'Xem tất cả' ở cuối → mở danh sách đầy đủ\n2. Bỏ click vào tiêu đề danh mục — bớt thao tác di chuyển focus\n3. Phim bộ Âu Mỹ không còn lẫn phim hoạt hình (fix server)",
   "mandatory": false,
   "minSupportedVersion": 1
 }
