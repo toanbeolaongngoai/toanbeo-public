@@ -1,8 +1,8 @@
 {
-  "versionCode": 76,
-  "versionName": "0.10.46",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.46-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.46 — Fix chọn tập bằng remote\n\n1. Drawer Danh sách tập: nhấn OK trên remote chọn tập đã ăn lệnh\n2. Trước chỉ click chuột mới được, D-pad OK bị InteractiveBox ăn key event\n3. Backfill lang aggregate (132 phim cập nhật TM từ source mới)"
+  "versionCode": 77,
+  "versionName": "0.10.47",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.47-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.47 — Xem tất cả landscape\n\n1. Row có thumb ngang (TV channel / bóng đá) — card 'Xem tất cả' giờ cũng landscape 180×101 đúng tỉ lệ\n2. Trước vẫn dọc 120×180 → lệch lưới"
 ,
   "mandatory": false,
   "minSupportedVersion": 1
