@@ -1,8 +1,8 @@
 {
-  "versionCode": 77,
-  "versionName": "0.10.47",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.47-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.47 — Xem tất cả landscape\n\n1. Row có thumb ngang (TV channel / bóng đá) — card 'Xem tất cả' giờ cũng landscape 180×101 đúng tỉ lệ\n2. Trước vẫn dọc 120×180 → lệch lưới"
+  "versionCode": 78,
+  "versionName": "0.10.48",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.48-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.48 — Fix chọn tập bằng remote (lần 2)\n\n1. Drawer Danh sách tập: bỏ InteractiveBox, dùng Box thuần với modifier order chuẩn → D-pad OK chọn tập đã ăn lệnh\n2. v0.10.46 chỉ fix một nửa — InteractiveBox internal focusable vẫn chiếm key events"
 ,
   "mandatory": false,
   "minSupportedVersion": 1
