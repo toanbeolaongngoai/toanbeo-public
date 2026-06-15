@@ -1,8 +1,8 @@
 {
-  "versionCode": 78,
-  "versionName": "0.10.48",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.48-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.48 — Fix chọn tập bằng remote (lần 2)\n\n1. Drawer Danh sách tập: bỏ InteractiveBox, dùng Box thuần với modifier order chuẩn → D-pad OK chọn tập đã ăn lệnh\n2. v0.10.46 chỉ fix một nửa — InteractiveBox internal focusable vẫn chiếm key events"
+  "versionCode": 79,
+  "versionName": "0.10.49",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.49-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.49 — Fix chọn tập bằng remote (lần 3)\n\n1. Drawer Danh sách tập: chỉ dùng clickable() (tự handle focus + Enter/DPad-Center). Bỏ focusable/onKeyEvent riêng — chúng làm rối modifier chain → OK trên TV không fire\n2. Lọc 18+ khỏi search + danh mục (server fix, không cần update)"
 ,
   "mandatory": false,
   "minSupportedVersion": 1
