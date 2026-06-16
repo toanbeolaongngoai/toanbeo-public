@@ -1,9 +1,8 @@
 {
-  "versionCode": 80,
-  "versionName": "0.10.50",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.50-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.50 — Bỏ banner ở Bóng Đá / Xem Tivi\n\n1. Addon Bóng Đá + Xem Tivi: vào là thấy ngay danh sách nguồn, không còn banner trận random ở đầu\n2. Phim TH + Phim TM vẫn giữ banner (random phim từ catalog)"
-,
+  "versionCode": 81,
+  "versionName": "0.10.51",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.51-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.51 — Làm mới addon Bóng Đá\n\n1. Bóng Đá tự cập nhật manifest để hiện catalog Làm mới danh sách và nguồn mới\n2. Bóng Đá / Xem Tivi không dùng cache home cũ, bỏ banner lớn và bỏ nhãn nguồn trên thumbnail",
   "mandatory": false,
   "minSupportedVersion": 1
 }
