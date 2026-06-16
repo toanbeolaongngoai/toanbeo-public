@@ -1,8 +1,8 @@
 {
-  "versionCode": 81,
-  "versionName": "0.10.51",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.51-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.51 — Làm mới addon Bóng Đá\n\n1. Bóng Đá tự cập nhật manifest để hiện catalog Làm mới danh sách và nguồn mới\n2. Bóng Đá / Xem Tivi không dùng cache home cũ, bỏ banner lớn và bỏ nhãn nguồn trên thumbnail",
+  "versionCode": 82,
+  "versionName": "0.10.52",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.52-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.52 — Nút làm mới Bóng Đá\n\n1. Catalog Làm mới danh sách chỉ còn một nút Làm mới, không còn đổ toàn bộ trận vào hàng đầu\n2. Bấm Làm mới sẽ xóa cache live server rồi tải lại danh sách các nguồn theo thời gian hiện tại\n3. Thứ tự nguồn Bóng Đá lấy theo trang config",
   "mandatory": false,
   "minSupportedVersion": 1
 }
