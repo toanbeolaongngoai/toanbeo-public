@@ -1,8 +1,8 @@
 {
-  "versionCode": 79,
-  "versionName": "0.10.49",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.49-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.49 — Fix chọn tập bằng remote (lần 3)\n\n1. Drawer Danh sách tập: chỉ dùng clickable() (tự handle focus + Enter/DPad-Center). Bỏ focusable/onKeyEvent riêng — chúng làm rối modifier chain → OK trên TV không fire\n2. Lọc 18+ khỏi search + danh mục (server fix, không cần update)"
+  "versionCode": 80,
+  "versionName": "0.10.50",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.50-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.50 — Bỏ banner ở Bóng Đá / Xem Tivi\n\n1. Addon Bóng Đá + Xem Tivi: vào là thấy ngay danh sách nguồn, không còn banner trận random ở đầu\n2. Phim TH + Phim TM vẫn giữ banner (random phim từ catalog)"
 ,
   "mandatory": false,
   "minSupportedVersion": 1
