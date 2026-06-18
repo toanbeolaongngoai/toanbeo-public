@@ -1,8 +1,8 @@
 {
-  "versionCode": 84,
-  "versionName": "0.10.54",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.54-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.54 — Nội dung cập nhật\n\n1. Link xác nhận email không còn trỏ về localhost\n2. Thông báo đăng ký tài khoản rõ ràng hơn",
+  "versionCode": 85,
+  "versionName": "0.10.55",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.55-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.55 — Nội dung cập nhật\n\n1. Đồng bộ cài đặt không còn làm hỏng đăng nhập\n2. Màn hình tài khoản không còn hiện lỗi kỹ thuật thô",
   "mandatory": false,
   "minSupportedVersion": 1
 }
