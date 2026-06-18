@@ -1,8 +1,8 @@
 {
-  "versionCode": 86,
-  "versionName": "0.10.56",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.56-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.56 — Nội dung cập nhật\n\n1. Đồng bộ chờ đăng nhập ổn định trước khi chạy\n2. Thêm yêu thích và sync yêu thích qua tài khoản\n3. Tất cả addon, lịch sử xem và cài đặt được sync",
+  "versionCode": 87,
+  "versionName": "0.10.57",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.57-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.57 — Nội dung cập nhật\n\n1. Thêm mục Yêu thích trong sidebar\n2. Đồng bộ hiển thị rõ mục nào bị bỏ qua và lý do\n3. Sync tài khoản ổn định hơn sau khi đăng nhập",
   "mandatory": false,
   "minSupportedVersion": 1
 }
