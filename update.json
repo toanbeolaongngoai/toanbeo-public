@@ -1,8 +1,8 @@
 {
-  "versionCode": 82,
-  "versionName": "0.10.52",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.52-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.52 — Nút làm mới Bóng Đá\n\n1. Catalog Làm mới danh sách chỉ còn một nút Làm mới, không còn đổ toàn bộ trận vào hàng đầu\n2. Bấm Làm mới sẽ xóa cache live server rồi tải lại danh sách các nguồn theo thời gian hiện tại\n3. Thứ tự nguồn Bóng Đá lấy theo trang config",
-  "mandatory": false,
-  "minSupportedVersion": 1
+    "versionCode":  83,
+    "versionName":  "0.10.53",
+    "apkUrl":  "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.53-debug.apk",
+    "changelog":  "## Giải Trí Online v0.10.53 — Nội dung cập nhật\n\n1. Đăng nhập tài khoản bằng email và mật khẩu\n2. Đăng ký tài khoản mới trong app\n3. Đồng bộ không còn phụ thuộc Google Sign-In",
+    "mandatory":  false,
+    "minSupportedVersion":  1
 }
