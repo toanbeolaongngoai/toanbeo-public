@@ -1,8 +1,8 @@
 {
-  "versionCode": 89,
-  "versionName": "0.10.59",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.59-debug.apk",
-  "changelog": "## Giai Tri Online v0.10.59 - Noi dung cap nhat\n\n1. Xoa Tiep tuc xem se dong bo len tai khoan\n2. May khac khong keo lai lich su da xoa\n3. Yeu thich tu bo sung badge phim con thieu",
+  "versionCode": 90,
+  "versionName": "0.10.60",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.60-debug.apk",
+  "changelog": "## Giai Tri Online v0.10.60 - Noi dung cap nhat\n\n1. Yeu thich hien them badge so tap nhu Trang chu\n2. Tu tinh Tap N tu danh sach episode neu meta thieu episodeCurrent\n3. Khong ghi de metadata yeu thich bang du lieu rong",
   "mandatory": false,
   "minSupportedVersion": 1
 }
