@@ -1,8 +1,8 @@
 {
-  "versionCode": 95,
-  "versionName": "0.10.65",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.65-debug.apk",
-  "changelog": "## Giai Tri Online v0.10.65 - Noi dung cap nhat\n\n1. FavoriteRow khong con name/poster/background\n2. Bang user_favorites san sang drop cac cot metadata thua\n3. Yeu thich van lay metadata tu API khi hien thi",
+  "versionCode": 96,
+  "versionName": "0.10.66",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.66-debug.apk",
+  "changelog": "## Giai Tri Online v0.10.66 - Noi dung cap nhat\n\n1. Sua updated_at favorite khong con bi ve nam 1970\n2. Tu normalize favorite cu co timestamp qua thap khi dong bo\n3. Khi mo chi tiet favorite cu cung cap nhat lai timestamp hop le",
   "mandatory": false,
   "minSupportedVersion": 1
 }
