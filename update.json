@@ -1,8 +1,8 @@
 {
-  "versionCode": 88,
-  "versionName": "0.10.58",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.58-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.58 — Nội dung cập nhật\n\n1. Sửa lỗi đồng bộ khi Supabase trả null\n2. Mục Yêu thích dùng card cùng kích thước với Trang chủ\n3. Yêu thích lưu thêm badge phim khi mở chi tiết",
+  "versionCode": 89,
+  "versionName": "0.10.59",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.59-debug.apk",
+  "changelog": "## Giai Tri Online v0.10.59 - Noi dung cap nhat\n\n1. Xoa Tiep tuc xem se dong bo len tai khoan\n2. May khac khong keo lai lich su da xoa\n3. Yeu thich tu bo sung badge phim con thieu",
   "mandatory": false,
   "minSupportedVersion": 1
 }
