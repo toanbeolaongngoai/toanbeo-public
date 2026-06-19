@@ -1,8 +1,8 @@
 {
-  "versionCode": 93,
-  "versionName": "0.10.63",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.63-debug.apk",
-  "changelog": "## Giai Tri Online v0.10.63 - Noi dung cap nhat\n\n1. Supabase favorites chi dong bo khoa addon_id/type/meta_id de tiet kiem dung luong\n2. Local van giu cache poster/badge va refresh nen khi mo Yeu thich\n3. Them xoa tat ca Yeu thich va nhan giu tung phim de xoa",
+  "versionCode": 94,
+  "versionName": "0.10.64",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.64-debug.apk",
+  "changelog": "## Giai Tri Online v0.10.64 - Noi dung cap nhat\n\n1. Chi giu toi da 100 tombstone moi nhat moi user\n2. Tu dong xoa tombstone cu tren Supabase khi dong bo\n3. Ap dung cho ca Tiep tuc xem va Yeu thich",
   "mandatory": false,
   "minSupportedVersion": 1
 }
