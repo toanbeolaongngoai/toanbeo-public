@@ -1,8 +1,8 @@
 {
-  "versionCode": 92,
-  "versionName": "0.10.62",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.62-debug.apk",
-  "changelog": "## Giai Tri Online v0.10.62 - Noi dung cap nhat\n\n1. Tach local history theo tung tai khoan dang nhap\n2. Tach local yeu thich theo tung tai khoan dang nhap\n3. Tranh tai khoan nay day tombstone deleted=true cua tai khoan khac",
+  "versionCode": 93,
+  "versionName": "0.10.63",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.63-debug.apk",
+  "changelog": "## Giai Tri Online v0.10.63 - Noi dung cap nhat\n\n1. Supabase favorites chi dong bo khoa addon_id/type/meta_id de tiet kiem dung luong\n2. Local van giu cache poster/badge va refresh nen khi mo Yeu thich\n3. Them xoa tat ca Yeu thich va nhan giu tung phim de xoa",
   "mandatory": false,
   "minSupportedVersion": 1
 }
