@@ -1,8 +1,8 @@
 {
-  "versionCode": 91,
-  "versionName": "0.10.61",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.61-debug.apk",
-  "changelog": "## Giai Tri Online v0.10.61 - Noi dung cap nhat\n\n1. Sua loi dong bo history push bi Supabase tu choi deleted=null\n2. Luon gui deleted=false cho lich su dang ton tai\n3. Xoa Tiep tuc xem tiep tuc dong bo bang deleted=true",
+  "versionCode": 92,
+  "versionName": "0.10.62",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.62-debug.apk",
+  "changelog": "## Giai Tri Online v0.10.62 - Noi dung cap nhat\n\n1. Tach local history theo tung tai khoan dang nhap\n2. Tach local yeu thich theo tung tai khoan dang nhap\n3. Tranh tai khoan nay day tombstone deleted=true cua tai khoan khac",
   "mandatory": false,
   "minSupportedVersion": 1
 }
