@@ -1,8 +1,8 @@
 {
-  "versionCode": 87,
-  "versionName": "0.10.57",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.57-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.57 — Nội dung cập nhật\n\n1. Thêm mục Yêu thích trong sidebar\n2. Đồng bộ hiển thị rõ mục nào bị bỏ qua và lý do\n3. Sync tài khoản ổn định hơn sau khi đăng nhập",
+  "versionCode": 88,
+  "versionName": "0.10.58",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.58-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.58 — Nội dung cập nhật\n\n1. Sửa lỗi đồng bộ khi Supabase trả null\n2. Mục Yêu thích dùng card cùng kích thước với Trang chủ\n3. Yêu thích lưu thêm badge phim khi mở chi tiết",
   "mandatory": false,
   "minSupportedVersion": 1
 }
