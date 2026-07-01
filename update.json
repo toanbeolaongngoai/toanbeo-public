@@ -1,8 +1,8 @@
 {
-  "versionCode": 98,
-  "versionName": "0.10.68",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.68-debug.apk",
-  "changelog": "## Giai Tri Online v0.10.68 - Noi dung cap nhat\n\n1. Addon tu chon ky tu viet tat tren sidebar",
+  "versionCode": 99,
+  "versionName": "0.10.69",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.69-debug.apk",
+  "changelog": "## Giai Tri Online v0.10.69 - Noi dung cap nhat\n\n1. Dong bo ky tu viet tat tu manifest addon\n2. Sua anh poster cua Ophim\n3. Ho tro addon NguonC",
   "mandatory": false,
   "minSupportedVersion": 1
 }
