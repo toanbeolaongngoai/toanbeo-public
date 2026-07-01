@@ -1,8 +1,8 @@
 {
-  "versionCode": 101,
-  "versionName": "0.10.71",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.71-debug.apk",
-  "changelog": "## v0.10.71 - Fix nguon phat NguonC\n\n- Fix loi 'Khong co nguon phat' khi xem phim NguonC.\n- Them Native Extractor giai ma stream NguonC truc tiep tren thiet bi (vuot Cloudflare WAF).\n- Fix cache khi kiem tra cap nhat.",
+  "versionCode": 102,
+  "versionName": "0.10.72",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.72-debug.apk",
+  "changelog": "## v0.10.72 - Fix loi giai ma NguonC stream\n\n- Fix loi giai ma stream (loai bo decode base64 cho sUb, sUb la path).\n- Hoat dong on dinh voi NguonC h-token.",
   "mandatory": false,
   "minSupportedVersion": 1
 }
