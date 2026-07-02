@@ -1,8 +1,8 @@
 {
-  "versionCode": 102,
-  "versionName": "0.10.72",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.72-debug.apk",
-  "changelog": "## v0.10.72 - Fix loi giai ma NguonC stream\n\n- Fix loi giai ma stream (loai bo decode base64 cho sUb, sUb la path).\n- Hoat dong on dinh voi NguonC h-token.",
+  "versionCode": 103,
+  "versionName": "0.10.73",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.73-debug.apk",
+  "changelog": "## v0.10.73\n\n- Khoi phuc phat phim NguonC qua WebView resolver.",
   "mandatory": false,
   "minSupportedVersion": 1
 }
