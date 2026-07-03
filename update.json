@@ -1,8 +1,8 @@
 {
-  "versionCode": 103,
-  "versionName": "0.10.73",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.73-debug.apk",
-  "changelog": "## v0.10.73\n\n- Khoi phuc phat phim NguonC qua WebView resolver.",
+  "versionCode": 104,
+  "versionName": "0.10.74",
+  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.74-debug.apk",
+  "changelog": "## v0.10.74\n\n- Cap nhat danh dau tap dang xem khi quay lai chi tiet.",
   "mandatory": false,
   "minSupportedVersion": 1
 }
