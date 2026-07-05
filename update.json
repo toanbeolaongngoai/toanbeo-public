@@ -1,8 +1,8 @@
 {
-  "versionCode": 104,
-  "versionName": "0.10.74",
-  "apkUrl": "https://github.com/toanbeolaongngoai/toanbeo-public/raw/main/GiaiTriOnline-v0.10.74-debug.apk",
-  "changelog": "## v0.10.74\n\n- Cap nhat danh dau tap dang xem khi quay lai chi tiet.",
+  "versionCode": 105,
+  "versionName": "0.10.75",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.75-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.75\n\n1. Sửa nguồn X20 không phát trong PhimTH và PhimTM",
   "mandatory": false,
   "minSupportedVersion": 1
 }
