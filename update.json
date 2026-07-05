@@ -1,8 +1,8 @@
 {
-  "versionCode": 110,
-  "versionName": "0.10.80",
-  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.80-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.80\n\n1. Sửa lỗi phụ đề X20 - bật subtitle parser cho Media3\n2. Dùng DefaultMediaSourceFactory thay SingleSampleMediaSource",
+  "versionCode": 111,
+  "versionName": "0.10.81",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.81-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.81\n\n1. Thêm cài đặt giao diện phụ đề (cỡ chữ, nền, vị trí)\n2. Cấu hình được lưu và áp dụng cho mọi phim có phụ đề",
   "mandatory": false,
   "minSupportedVersion": 1
 }
