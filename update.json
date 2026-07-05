@@ -1,8 +1,8 @@
 {
-  "versionCode": 111,
-  "versionName": "0.10.81",
-  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.81-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.81\n\n1. Thêm cài đặt giao diện phụ đề (cỡ chữ, nền, vị trí)\n2. Cấu hình được lưu và áp dụng cho mọi phim có phụ đề",
+  "versionCode": 112,
+  "versionName": "0.10.82",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.82-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.82\n\n1. Thử nghiệm dual audio thuyết minh: chọn 2 audio track cùng lúc\n2. Nếu không hoạt động, sẽ cần hướng khác (MergingMediaSource)",
   "mandatory": false,
   "minSupportedVersion": 1
 }
