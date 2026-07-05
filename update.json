@@ -1,8 +1,8 @@
 {
-  "versionCode": 108,
-  "versionName": "0.10.78",
-  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.78-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.78\n\n1. Sửa lỗi chọn phụ đề Tiếng Việt nguồn X20 bị crash chuyển nguồn\n2. Nhúng phụ đề VTT trực tiếp vào dữ liệu addon, không phụ thuộc network",
+  "versionCode": 109,
+  "versionName": "0.10.79",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.79-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.79\n\n1. Sửa lỗi chọn phụ đề Tiếng Việt X20 bị crash chuyển nguồn\n2. Tự động tắt phụ đề khi load lỗi, giữ nguyên nguồn đang phát",
   "mandatory": false,
   "minSupportedVersion": 1
 }
