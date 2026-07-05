@@ -1,8 +1,8 @@
 {
-  "versionCode": 105,
-  "versionName": "0.10.75",
-  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.75-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.75\n\n1. Sửa nguồn X20 không phát trong PhimTH và PhimTM",
+  "versionCode": 106,
+  "versionName": "0.10.76",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.76-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.76\n\n1. Sửa chọn âm thanh và phụ đề bằng điều khiển TV\n2. Hiển thị đúng Âm thanh gốc và phụ đề Tiếng Việt\n3. Sửa phụ đề X20 không hiển thị",
   "mandatory": false,
   "minSupportedVersion": 1
 }
