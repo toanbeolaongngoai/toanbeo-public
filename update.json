@@ -1,8 +1,8 @@
 {
-  "versionCode": 113,
-  "versionName": "0.10.83",
-  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.83-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.83\n\n1. Sửa lỗi cài đặt phụ đề không hiện\n2. Sửa focus sau khi chọn audio/phụ đề xong",
+  "versionCode": 114,
+  "versionName": "0.10.84",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.84-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.84\n\n1. Dual audio: thêm option 'Âm thanh gốc + Thuyết minh' (MergingMediaSource)\n2. Sửa cài đặt phụ đề + focus",
   "mandatory": false,
   "minSupportedVersion": 1
 }
