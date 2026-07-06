@@ -1,8 +1,8 @@
 {
-  "versionCode": 115,
-  "versionName": "0.10.85",
-  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.85-release.apk",
-  "changelog": "## Giải Trí Online v0.10.85\n\n1. Subtitle settings: dialog mới có Lưu/Hủy, sửa background + vị trí\n2. Dual audio: thêm option 'Âm thanh gốc + Thuyết minh'",
+  "versionCode": 116,
+  "versionName": "0.10.86",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.86-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.86\n\n1. Fix dual audio: xử lý track không URI, merge video + audio rendition ngoài\n2. Subtitle: dùng CaptionStyleCompat cho nền/vị trí",
   "mandatory": false,
   "minSupportedVersion": 1
 }
