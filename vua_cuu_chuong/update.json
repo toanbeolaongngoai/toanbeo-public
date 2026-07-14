@@ -1,7 +1,7 @@
 {
-  "versionCode": 6,
-  "versionName": "1.0.5",
-  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/vua_cuu_chuong/VuaCuuChuong-v1.0.5-debug.apk",
-  "changelog": "## Vua Cửu Chương v1.0.5\n1. Sửa thời gian chờ TTS chính xác hơn\n2. Tăng tốc giọng đọc lên 0.6 cho tự nhiên",
+  "versionCode": 7,
+  "versionName": "2.0.0",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/vua_cuu_chuong/VuaCuuChuong-v2.0.0-debug.apk",
+  "changelog": "## Vua Cửu Chương v2.0.0\n1. Đánh Boss cuối màn (10 máu, 3 tim)\n2. Cửa hàng phụ kiện (mũ, áo, kính, hiệu ứng)\n3. Nhiệm vụ hằng ngày + thưởng xu\n4. Huy hiệu thành tích\n5. Lottie animation cho bạn đồng hành\n6. Sửa lỗi TTS chờ đúng thời gian",
   "mandatory": false
 }
