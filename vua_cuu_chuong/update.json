@@ -1,7 +1,7 @@
 {
-  "versionCode": 3,
-  "versionName": "1.0.2",
-  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/vua_cuu_chuong/VuaCuuChuong-v1.0.2-debug.apk",
-  "changelog": "## Vua Cửu Chương v1.0.2\n1. Sửa hiển thị nhân vật - đúng emoji từng bạn đồng hành\n2. Giọng đọc TTS: nhấn phép tính nghe, đúng/sai có câu đầy đủ\n3. LessonScreen: 1 cột mỗi hàng, phù hợp màn hình dọc\n4. Đồng bộ GameScaffold toàn bộ giao diện\n5. Tối ưu bố cục cho điện thoại",
+  "versionCode": 4,
+  "versionName": "1.0.3",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/vua_cuu_chuong/VuaCuuChuong-v1.0.3-debug.apk",
+  "changelog": "## Vua Cửu Chương v1.0.3\n1. Sửa giọng nói TTS đọc đủ câu, không bị chèn giữa chừng\n2. Đọc câu hỏi đầu mỗi lượt: Thỏ đố bé: 2×6 bằng bao nhiêu?\n3. Trả lời xong: nói đầy đủ kết quả + động viên, nghỉ 1s rồi đọc câu tiếp",
   "mandatory": false
 }
