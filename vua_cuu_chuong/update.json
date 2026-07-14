@@ -1,0 +1,7 @@
+{
+  "versionCode": 2,
+  "versionName": "1.0.1",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/vua_cuu_chuong/VuaCuuChuong-v1.0.1-debug.apk",
+  "changelog": "## Vua Cửu Chương v1.0.1\n1. Nâng cấp giao diện 8 chủ đề thế giới (Rừng Xanh → Vũ Trụ)\n2. Nhân vật đồng hành có cảm xúc vui/buồn/chiến đấu\n3. Giọng đọc TTS tiếng Việt cho phép tính\n4. Mini game Đập Chuột\n5. Cập nhật OTA tự động",
+  "mandatory": false
+}
