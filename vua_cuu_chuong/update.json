@@ -1,7 +1,7 @@
 {
-  "versionCode": 5,
-  "versionName": "1.0.4",
-  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/vua_cuu_chuong/VuaCuuChuong-v1.0.4-debug.apk",
-  "changelog": "## Vua Cửu Chương v1.0.4\n1. Sửa giọng nói TTS: chờ nói xong hẳn mới chuyển câu\n2. Tính thời gian nói theo độ dài câu, không bị chèn giữa chừng",
+  "versionCode": 6,
+  "versionName": "1.0.5",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/vua_cuu_chuong/VuaCuuChuong-v1.0.5-debug.apk",
+  "changelog": "## Vua Cửu Chương v1.0.5\n1. Sửa thời gian chờ TTS chính xác hơn\n2. Tăng tốc giọng đọc lên 0.6 cho tự nhiên",
   "mandatory": false
 }
