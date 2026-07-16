@@ -1,8 +1,8 @@
 {
-  "versionCode": 121,
-  "versionName": "0.10.91",
-  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.91-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.91\n\n1. Sửa audio X20: tự động chọn track thuyết minh 2ch ngay khi vào phát (không còn thấy 3 dòng audio)\n2. Sửa cài đặt phụ đề: vị trí phụ đề (bottomPadding) hoạt động đúng",
+  "versionCode": 122,
+  "versionName": "0.10.92",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.92-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.92\n\n1. Sửa audio X20: dùng ExoPlayer tracks thay vì fetch m3u8 để auto-select thuyết minh (hoạt động trên mọi network)",
   "mandatory": false,
   "minSupportedVersion": 1
 }
