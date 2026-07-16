@@ -1,8 +1,8 @@
 {
-  "versionCode": 118,
-  "versionName": "0.10.88",
-  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.88-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.88\n\n1. Tự động bật thuyết minh khi nguồn hỗ trợ\n2. Giữ focus sau khi chọn âm thanh và phụ đề\n3. Điều khiển cài đặt phụ đề bằng remote",
+  "versionCode": 119,
+  "versionName": "0.10.89",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.89-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.89\n\n1. Sửa lỗi video bị tối do lớp nền phụ đề đè lên toàn màn hình",
   "mandatory": false,
   "minSupportedVersion": 1
 }
