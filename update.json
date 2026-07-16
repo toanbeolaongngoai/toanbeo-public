@@ -1,8 +1,8 @@
 {
-  "versionCode": 122,
-  "versionName": "0.10.92",
-  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.92-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.92\n\n1. Sửa audio X20: dùng ExoPlayer tracks thay vì fetch m3u8 để auto-select thuyết minh (hoạt động trên mọi network)",
+  "versionCode": 123,
+  "versionName": "0.10.93",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.93-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.93\n\n1. Sửa audio X20: set dualAudioSingleApplied flag TRƯỚC khi gán trackSelectionParameters (tránh race condition)",
   "mandatory": false,
   "minSupportedVersion": 1
 }
