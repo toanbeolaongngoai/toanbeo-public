@@ -1,8 +1,8 @@
 {
-  "versionCode": 120,
-  "versionName": "0.10.90",
-  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.90-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.90\n\n1. Tối ưu audio X20: tự động nhận diện kênh thuyết minh 2ch (không cần dual audio)\n2. Sửa phụ đề X20: loại bỏ dòng Subtitle giả, gộp Tiếng Việt trùng\n3. Sửa cài đặt phụ đề: nền chữ (bgAlpha) giờ hoạt động đúng\n4. Cập nhật addon PhimTH 1.0.44, PhimTM 1.0.17",
+  "versionCode": 121,
+  "versionName": "0.10.91",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.91-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.91\n\n1. Sửa audio X20: tự động chọn track thuyết minh 2ch ngay khi vào phát (không còn thấy 3 dòng audio)\n2. Sửa cài đặt phụ đề: vị trí phụ đề (bottomPadding) hoạt động đúng",
   "mandatory": false,
   "minSupportedVersion": 1
 }
