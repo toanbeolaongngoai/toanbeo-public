@@ -1,8 +1,8 @@
 {
-  "versionCode": 126,
-  "versionName": "0.10.96",
-  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.96-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.96\n\n1. Thêm hệ thống logging nội bộ (LogManager, FileLogger, CrashHandler)\n2. Ghi log player (Media3), network (OkHttp), navigation (UI)\n3. Bắt crash toàn cục, ghi device info + stacktrace\n4. Xem log trong app (DeveloperActivity — nhấn Version 7 lần)",
+  "versionCode": 127,
+  "versionName": "0.10.97",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.97-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.97\n\n1. Sửa lỗi mất log: thêm periodic flush 500ms + flush khi app vào background\n2. Thêm hệ thống logging nội bộ (LogManager, FileLogger, CrashHandler)\n3. Ghi log player (Media3), network (OkHttp), navigation (UI)",
   "mandatory": false,
   "minSupportedVersion": 1
 }
