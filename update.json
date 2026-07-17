@@ -1,8 +1,8 @@
 {
-  "versionCode": 131,
-  "versionName": "0.10.101",
-  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.101-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.101 — Nội dung cập nhật\n\n1. Fix decoder: bật fallback khi hardware từ chối codec không chuẩn\n2. Không còn lỗi decoder init failed trên điện thoại Mediatek\n3. Tự động xuống decoder phù hợp khi gặp H.264 lỗi profile/level",
+  "versionCode": 132,
+  "versionName": "0.10.102",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.102-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.102 — Nội dung cập nhật\n\n1. Fix adaptive switching: quét tất cả video groups để chọn variant phù hợp\n2. Ép xuống resolution trong giới hạn thiết bị, tránh fallback software decoder\n3. Không còn giật lag khi xem phim X20 trên điện thoại Mediatek",
   "mandatory": false,
   "minSupportedVersion": 1
 }
