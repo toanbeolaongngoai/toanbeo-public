@@ -1,8 +1,8 @@
 {
-  "versionCode": 127,
-  "versionName": "0.10.97",
-  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.97-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.97\n\n1. Sửa lỗi mất log: thêm periodic flush 500ms + flush khi app vào background\n2. Thêm hệ thống logging nội bộ (LogManager, FileLogger, CrashHandler)\n3. Ghi log player (Media3), network (OkHttp), navigation (UI)",
+  "versionCode": 128,
+  "versionName": "0.10.98",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.98-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.98\n\n1. Fix lỗi nguồn X20: thêm software decoder fallback khi hardware không hỗ trợ resolution (VD 2580×1080)\n2. Cải thiện log: flush sync ngay khi có WARNING (failover, decoder fallback)\n3. Log đầy đủ failover process + decoder fallback event\n4. Tái tạo player tự động khi fallback software decoder",
   "mandatory": false,
   "minSupportedVersion": 1
 }
