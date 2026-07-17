@@ -1,8 +1,8 @@
 {
-  "versionCode": 136,
-  "versionName": "0.10.106",
-  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.106-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.106 — Nội dung cập nhật\n\n1. TV/emulator: chọn variant video cao nhất khi load phim\n2. Audio: ẩn dòng dual khi nguồn không có TM riêng\n3. Log audio strategy để kiểm tra đang Single/Dual/None\n4. X20 dedup: redeploy worker so sánh URL gốc",
+  "versionCode": 137,
+  "versionName": "0.10.107",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.107-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.107 — Nội dung cập nhật\n\n1. Fix parse CHANNELS: channels=0 (không có attribute) mặc định Single, không Dual\n2. Audio picker: ẩn dòng dual khi Dual strategy chưa kích hoạt\n3. TV pin highest resolution ổn định",
   "mandatory": false,
   "minSupportedVersion": 1
 }
