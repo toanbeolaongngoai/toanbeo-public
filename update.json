@@ -1,8 +1,8 @@
 {
-  "versionCode": 129,
-  "versionName": "0.10.99",
-  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.99-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.99\n\n1. Hệ thống Debug & Logging nội bộ (LogManager, FileLogger, CrashHandler)\n2. PlayerLogger: ghi PlaybackState, Codec, Resolution, Error\n3. NetworkLogger: ghi URL, Method, Code, Time (OkHttp Interceptor)\n4. Navigation logging theo dõi chuyển màn hình\n5. DisplayUtil: tự dò resolution — điện thoại 1080p, TV 4K\n6. Xoá fallbackToSoftware (fix crash + màn hình đen v0.10.98)\n7. Fix AndroidView update đảm bảo PlayerView luôn gắn đúng player",
+  "versionCode": 130,
+  "versionName": "0.10.100",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.100-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.100 — Nội dung cập nhật\n\n1. Fix X20 video 4K: hard-cap resolution trong onTracksChanged\n2. Không còn lỗi decoder init failed trên điện thoại Mediatek\n3. Tự động ép variant phù hợp trong giới hạn thiết bị",
   "mandatory": false,
   "minSupportedVersion": 1
 }
