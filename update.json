@@ -1,8 +1,8 @@
 {
-  "versionCode": 125,
-  "versionName": "0.10.95",
-  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.95-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.95\n\n1. Sửa audio X20: kết hợp polling STATE_READY + fallback onTracksChanged listener\n2. Sửa dual audio sync listener gây 'Handler on dead thread'",
+  "versionCode": 126,
+  "versionName": "0.10.96",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.96-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.96\n\n1. Thêm hệ thống logging nội bộ (LogManager, FileLogger, CrashHandler)\n2. Ghi log player (Media3), network (OkHttp), navigation (UI)\n3. Bắt crash toàn cục, ghi device info + stacktrace\n4. Xem log trong app (DeveloperActivity — nhấn Version 7 lần)",
   "mandatory": false,
   "minSupportedVersion": 1
 }
