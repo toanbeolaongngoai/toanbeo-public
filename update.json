@@ -1,8 +1,8 @@
 {
-  "versionCode": 135,
-  "versionName": "0.10.105",
-  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.105-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.105 — Nội dung cập nhật\n\n1. Fix audio X20: MergingMediaSource ghép video gốc + TM audio 2ch\n2. Không còn lỗi 3 dòng audio, tự động chọn Thuyết Minh\n3. Phone riêng: fallback decoder + ép resolution, TV/emulator không đụng\n4. Xử lý đúng TM 2ch (đã trộn) vs TM 1ch (cần dual player)",
+  "versionCode": 136,
+  "versionName": "0.10.106",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.106-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.106 — Nội dung cập nhật\n\n1. TV/emulator: chọn variant video cao nhất khi load phim\n2. Audio: ẩn dòng dual khi nguồn không có TM riêng\n3. Log audio strategy để kiểm tra đang Single/Dual/None\n4. X20 dedup: redeploy worker so sánh URL gốc",
   "mandatory": false,
   "minSupportedVersion": 1
 }
