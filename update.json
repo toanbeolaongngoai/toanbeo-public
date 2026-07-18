@@ -1,8 +1,8 @@
 {
-  "versionCode": 139,
-  "versionName": "0.10.109",
-  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.109-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.109 — Nội dung cập nhật\n\n1. Phone: thêm badge (tập/năm/nguồn/ngôn ngữ) cho card phim\n2. Phone: nút chọn addon dạng dropdown ở top bar\n3. Phone: gộp nút Xem ngay + Yêu thích vào cùng cột thông tin\n4. Phone: Player tự động xoay ngang + thêm nút Back\n5. TV: giữ nguyên giao diện",
+  "versionCode": 140,
+  "versionName": "0.10.110",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.110-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.110 — Nội dung cập nhật\n\n1. Phone: thêm badge (tập/năm/nguồn/ngôn ngữ) cho card phim\n2. Phone: card dạng landscape 16:9 cho bóng đá & TV\n3. Phone: thêm nút Xem tất cả cuối mỗi hàng danh mục\n4. Phone: Tiếp tục xem dạng 16:9 + nút Play + thanh tiến trình\n5. Phone: Player tự động xoay ngang + nút Back\n6. Fix detect device: LDPlayer/settings override đúng orientation",
   "mandatory": false,
   "minSupportedVersion": 1
 }
