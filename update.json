@@ -1,8 +1,8 @@
 {
-  "versionCode": 138,
-  "versionName": "0.10.108",
-  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.108-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.108 — Nội dung cập nhật\n\n1. Tách giao diện Phone/TV: tự động chuyển đổi theo thiết bị\n2. Phone: giao diện portrait + Bottom Navigation Bar\n3. TV: giữ nguyên giao diện landscape hiện tại",
+  "versionCode": 139,
+  "versionName": "0.10.109",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.109-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.109 — Nội dung cập nhật\n\n1. Phone: thêm badge (tập/năm/nguồn/ngôn ngữ) cho card phim\n2. Phone: nút chọn addon dạng dropdown ở top bar\n3. Phone: gộp nút Xem ngay + Yêu thích vào cùng cột thông tin\n4. Phone: Player tự động xoay ngang + thêm nút Back\n5. TV: giữ nguyên giao diện",
   "mandatory": false,
   "minSupportedVersion": 1
 }
