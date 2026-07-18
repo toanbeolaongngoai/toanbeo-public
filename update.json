@@ -1,8 +1,8 @@
 {
-  "versionCode": 137,
-  "versionName": "0.10.107",
-  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.107-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.107 — Nội dung cập nhật\n\n1. Fix parse CHANNELS: channels=0 (không có attribute) mặc định Single, không Dual\n2. Audio picker: ẩn dòng dual khi Dual strategy chưa kích hoạt\n3. TV pin highest resolution ổn định",
+  "versionCode": 138,
+  "versionName": "0.10.108",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.108-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.108 — Nội dung cập nhật\n\n1. Tách giao diện Phone/TV: tự động chuyển đổi theo thiết bị\n2. Phone: giao diện portrait + Bottom Navigation Bar\n3. TV: giữ nguyên giao diện landscape hiện tại",
   "mandatory": false,
   "minSupportedVersion": 1
 }
