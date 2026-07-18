@@ -1,8 +1,8 @@
 {
-  "versionCode": 141,
-  "versionName": "0.10.111",
-  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.111-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.111 — Nội dung cập nhật\n\n1. Phone: thêm menu sidebar trái kiểu TV (Drawer)\n2. Phone: Tiếp tục xem — xoá từng phim (giữ), xoá tất cả cuối danh sách\n3. Phone: tên phim ở dưới ảnh thumb (không đè lên)\n4. Phone: danh mục grid 3 cột thay vì 2\n5. Phone: Xoá tất cả Yêu thích + giữ để xoá từng phim",
+  "versionCode": 142,
+  "versionName": "0.10.112",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.112-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.112 — Nội dung cập nhật\n\n1. Phone: menu Drawer có icon + menu động theo addon (thể loại/quốc gia...)\n2. Phone: Detail lấy poster làm nền full, nội dung hiển thị đè lên\n3. Phone: bỏ addon list khỏi drawer (đã có dropdown riêng)",
   "mandatory": false,
   "minSupportedVersion": 1
 }
