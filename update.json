@@ -1,8 +1,8 @@
 {
-  "versionCode": 142,
-  "versionName": "0.10.112",
-  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.112-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.112 — Nội dung cập nhật\n\n1. Phone: menu Drawer có icon + menu động theo addon (thể loại/quốc gia...)\n2. Phone: Detail lấy poster làm nền full, nội dung hiển thị đè lên\n3. Phone: bỏ addon list khỏi drawer (đã có dropdown riêng)",
+  "versionCode": 143,
+  "versionName": "0.10.113",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.113-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.113 — Nội dung cập nhật\n\n1. Sửa phát phim bộ từ addon VNStream\n2. Sửa giao diện cấu hình addon trên điện thoại\n3. Tối ưu tương thích nguồn Stremio",
   "mandatory": false,
   "minSupportedVersion": 1
 }
