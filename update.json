@@ -1,8 +1,8 @@
 {
-  "versionCode": 144,
-  "versionName": "0.10.114",
-  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.114-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.114 — Nội dung cập nhật\n\n1. Phone: mô tả phim gọn 3 dòng có xem thêm\n2. Phone: diễn viên cuộn ngang một hàng\n3. Ổn định bố cục màn hình chi tiết phim",
+  "versionCode": 145,
+  "versionName": "0.10.115",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.115-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.115\n\n1. Hỗ trợ addon giữ nguyên tên server khi cần\n2. Tối ưu nhận diện nguồn OP/KK/NguonC theo URL\n3. Cập nhật Rophim1",
   "mandatory": false,
   "minSupportedVersion": 1
 }
