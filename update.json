@@ -2,7 +2,7 @@
   "versionCode": 145,
   "versionName": "0.10.115",
   "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.115-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.115\n\n1. Hỗ trợ addon giữ nguyên tên server khi cần\n2. Tối ưu nhận diện nguồn OP/KK/NguonC theo URL\n3. Cập nhật Rophim1",
+  "changelog": "## Giải Trí Online v0.10.115\n\n1. Hỗ trợ addon giữ nguyên tên server khi cần\n2. Tối ưu nhận diện nguồn OP/KK/NguonC theo URL\n3. Cập nhật Rophim1.",
   "mandatory": false,
   "minSupportedVersion": 1
 }
