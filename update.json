@@ -1,8 +1,8 @@
 {
-  "versionCode": 145,
-  "versionName": "0.10.115",
-  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.115-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.115\n\n1. Hỗ trợ addon giữ nguyên tên server khi cần\n2. Tối ưu nhận diện nguồn OP/KK/NguonC theo URL\n3. Cập nhật Rophim1.",
+  "versionCode": 146,
+  "versionName": "0.10.116",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.116-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.116\n\n1. Mặc định bật phụ đề Việt khi nguồn có sub riêng\n2. Cập nhật Rophim1: phim lẻ, detail, đủ server\n3. Giữ ưu tiên nguồn C trước VICDN",
   "mandatory": false,
   "minSupportedVersion": 1
 }
