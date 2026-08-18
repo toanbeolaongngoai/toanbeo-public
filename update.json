@@ -1,8 +1,8 @@
 {
-  "versionCode": 149,
-  "versionName": "0.10.119",
-  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.119-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.119\n\n1. Tăng tốc load trang chủ addon\n2. Hiển thị từng hàng phim khi tải xong\n3. Giảm nghẽn mạng khi mở app",
+  "versionCode": 150,
+  "versionName": "0.10.120",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.120-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.120\n\n1. Cố định cỡ chữ phụ đề theo lựa chọn\n2. Phụ đề hiển thị đều hơn giữa các phim",
   "mandatory": false,
   "minSupportedVersion": 1
 }
