@@ -1,8 +1,8 @@
 {
-  "versionCode": 150,
-  "versionName": "0.10.120",
-  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.120-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.120\n\n1. Cố định cỡ chữ phụ đề theo lựa chọn\n2. Phụ đề hiển thị đều hơn giữa các phim",
+  "versionCode": 151,
+  "versionName": "0.10.121",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.121-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.121\n\n1. Fix nguồn NguonC không xem được (giải mã playlist StreamC AES-GCM)",
   "mandatory": false,
   "minSupportedVersion": 1
 }
