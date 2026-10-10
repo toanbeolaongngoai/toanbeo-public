@@ -1,8 +1,8 @@
 {
-  "versionCode": 156,
-  "versionName": "0.10.126",
-  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.126-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.126\n\n1. Nguồn C: phát được phim (tải segment qua player của app)\n2. Nguồn C: ổn định hơn khi nhà cung cấp chặn tải trực tiếp",
+  "versionCode": 157,
+  "versionName": "0.10.127",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.127-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.127\n\n1. Nguồn C: sửa cách tải segment để phát được phim\n2. Màn hình lỗi hiện rõ nguyên nhân và phiên bản đang dùng",
   "mandatory": false,
   "minSupportedVersion": 1
 }
