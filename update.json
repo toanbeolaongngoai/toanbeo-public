@@ -1,8 +1,8 @@
 {
-  "versionCode": 153,
-  "versionName": "0.10.123",
-  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.123-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.123\n\n1. Điện thoại: nút \"Làm mới danh sách\" bóng đá hiện đúng như trên TV (trước đây hiện trùng trận, không có nút)\n2. Làm mới giờ nạp lại đúng dữ liệu tại thời điểm bấm, nhanh hơn ~2 lần và có vòng xoay báo đang tải\n3. Ổn định: hết crash khi addon trả trùng danh sách",
+  "versionCode": 154,
+  "versionName": "0.10.124",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.124-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.124\n\n1. Hết quảng cáo khi xem phim nguồn KKphim\n2. KhoPhim và VSMOV cũng hết quảng cáo\n3. Sửa cách nhận diện quảng cáo để không tái phát khi nguồn đổi máy chủ",
   "mandatory": false,
   "minSupportedVersion": 1
 }
