@@ -1,8 +1,8 @@
 {
-  "versionCode": 154,
-  "versionName": "0.10.124",
-  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.124-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.124\n\n1. Hết quảng cáo khi xem phim nguồn KKphim\n2. KhoPhim và VSMOV cũng hết quảng cáo\n3. Sửa cách nhận diện quảng cáo để không tái phát khi nguồn đổi máy chủ",
+  "versionCode": 155,
+  "versionName": "0.10.125",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.125-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.125\n\n1. Xem lại được phim nguồn Nguồn C\n2. Nguồn C: nạp player theo cơ chế mới của nhà cung cấp",
   "mandatory": false,
   "minSupportedVersion": 1
 }
