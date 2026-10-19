@@ -1,8 +1,8 @@
 {
-  "versionCode": 164,
-  "versionName": "0.10.134",
-  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.134-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.134\n\n1. Nguồn C: ghi lại mã Ray ID khi bị nhà cung cấp chặn\n2. Bỏ thư viện Cronet không hiệu quả — APK nhỏ lại như cũ",
+  "versionCode": 165,
+  "versionName": "0.10.135",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.135-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.135\n\n1. Nguồn C: xem phim trở lại bình thường\n2. Nguồn C: giảm số request mỗi segment để không bị máy chủ chặn tạm",
   "mandatory": false,
   "minSupportedVersion": 1
 }
