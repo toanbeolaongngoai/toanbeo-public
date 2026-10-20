@@ -1,8 +1,8 @@
 {
-  "versionCode": 165,
-  "versionName": "0.10.135",
-  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.135-debug.apk",
-  "changelog": "## Giải Trí Online v0.10.135\n\n1. Nguồn C: xem phim trở lại bình thường\n2. Nguồn C: giảm số request mỗi segment để không bị máy chủ chặn tạm",
+  "versionCode": 166,
+  "versionName": "0.10.136",
+  "apkUrl": "https://raw.githubusercontent.com/toanbeolaongngoai/toanbeo-public/main/GiaiTriOnline-v0.10.136-debug.apk",
+  "changelog": "## Giải Trí Online v0.10.136\n\n1. Thêm addon nhanh: gõ mã ngắn (vd kk) thay vì dán cả đường dẫn\n2. Nhập token một lần, máy tự nhớ cho các lần sau",
   "mandatory": false,
   "minSupportedVersion": 1
 }
